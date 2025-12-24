@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4BLD Trainer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="app" class="mode-idle">
+        <!-- Heads Up Display -->
+        <div class="hud">
+            <div class="status-left">
+                <span id="mode-text">IDLE</span>
+                <span id="timer" style="margin-left: 15px;">0.00s</span>
+            </div>
+            <div class="status-right">
+                <span id="stats-toggle">View Stats</span>
+            </div>
+        </div>
+
+        <!-- Hidden Stats Panel -->
+        <div id="stats-panel">
+            <div class="stat-header">SESSION STATS <span style="float:right; cursor:pointer;" id="close-stats">×</span></div>
+            <div class="stat-row"><span>Total Solves:</span> <span id="st-total">0</span></div>
+            <div class="stat-row"><span>Success Rate:</span> <span id="st-rate">0%</span></div>
+            <div class="stat-row"><span>Best Time:</span> <span id="st-best">-</span></div>
+            <div class="stat-row"><span>Avg Time (All):</span> <span id="st-avg">-</span></div>
+            <div class="history-list" id="st-history">
+                <!-- History items injected here -->
+            </div>
+            <div style="text-align:center; margin-top:10px;">
+                <button onclick="localStorage.removeItem('4bld_stats'); location.reload();" style="font-size:0.7rem; background:none; border:1px solid #555; color:#aaa; padding:2px 5px; cursor:pointer;">Reset Data</button>
+            </div>
+        </div>
+
+        <div id="content-area">
+            
+            <!-- Idle Screen -->
+            <div id="screen-idle" class="screen active">
+                <h1 style="font-size: 3rem; margin-bottom: 0;">4BLD Trainer</h1>
+                <p style="opacity: 0.7;">Parity? Just type the single letter at the end.</p>
+                <div class="settings">
+                    <label><input type="checkbox" id="chk-edges" checked> Edges</label>
+                    <label><input type="checkbox" id="chk-corners" checked> Corners</label>
+                    <label><input type="checkbox" id="chk-parity" checked> Random Parity</label>
+                </div>
+                <p class="hint">Press SPACE to Start</p>
+            </div>
+
+            <!-- Memo Screen -->
+            <div id="screen-memo" class="screen">
+                <div class="image-container">
+                    <img id="memo-img" src="" alt="Target">
+                    <div class="memo-label" id="memo-word">WORD</div>
+                    <div class="memo-type" id="memo-type">1/12</div>
+                </div>
+                <div class="progress-bar">
+                    <div id="memo-progress" style="width: 0%"></div>
+                </div>
+                <p class="hint">SPACE: Next Image • ENTER: Skip to Recall</p>
+            </div>
+
+            <!-- Execution Screen -->
+            <div id="screen-exec" class="screen">
+                <h2 style="opacity:0.8;">RECALL</h2>
+                <div id="input-history"></div>
+                <input type="text" id="user-input" placeholder="AB" maxlength="2" autocomplete="off">
+                <p class="hint">Type Pairs • SPACE to Finish</p>
+            </div>
+
+            <!-- Result Screen -->
+            <div id="screen-result" class="screen">
+                <div id="score-display">Perfect!</div>
+                <div id="time-display" style="font-size: 1.2rem; opacity: 0.8;">20.5s</div>
+                <div id="result-list"></div>
+                <p class="hint">Press SPACE to Restart</p>
+            </div>
+
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
