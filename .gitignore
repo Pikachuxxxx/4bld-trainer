@@ -1,0 +1,107 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+ENV/
+env/
+. venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+. DS_Store
+.project
+.pydevproject
+. settings/
+*. sublime-project
+*.sublime-workspace
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*. ipynb
+
+# PyCharm
+.idea/
+
+# Testing
+.pytest_cache/
+. coverage
+htmlcov/
+.tox/
+
+# Model files
+*. pth
+*.pt
+*. ckpt
+*.model
+
+# Data files
+*. npy
+*.npz
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*. csv
+
+# Images
+*.png
+*.jpg
+*. jpeg
+*.gif
+*.bmp
+*.tiff
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local config
+. env
+config.local. py
+
+# Temporary files
+*. tmp
+*.temp
+*~
+.#*
+
+# Output
+output/
+results/
+checkpoints/
+
+# allow these 
+!brdf_lut_ref.png
+!brdf_lut_nn.png
+!Figure_FinalTraining_256_1024.png
