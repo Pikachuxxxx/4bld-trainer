@@ -1,525 +1,2517 @@
 [
-  { "pair": "AA", "word": "Allu Arjun", "image": "img/aa.jpg", "type": "Telugu" },
-  { "pair": "AB", "word": "AbleTesfaye", "image": "img/ab.jpg", "type": "Tech" },
-  { "pair": "AC", "word": "Assassin's Creed", "image": "img/ac.jpg", "type": "Game" },
-  { "pair": "AD", "word": "Admin", "image": "img/ad.jpg", "type": "Tech" },
-  { "pair": "AE", "word": "Aeroplane", "image": "img/ae.jpg", "type": "Soft" },
-  { "pair": "AF", "word": "Africa", "image": "img/af.jpg", "type": "Cam" },
-  { "pair": "AG", "word": "Agni (Fire)", "image": "img/ag.jpg", "type": "Telugu" },
-  { "pair": "AH", "word": "Adolf Hitler", "image": "img/ah.jpg", "type": "History" },
-  { "pair": "AI", "word": "Artificial Intelligence", "image": "img/ai.jpg", "type": "Tech" },
-  { "pair": "AJ", "word": "Arjun Reddy", "image": "img/aj.jpg", "type": "Telugu" },
-  { "pair": "AK", "word": "Akhil", "image": "img/ak.jpg", "type": "Telugu" },
-  { "pair": "AL", "word": "Algorithm", "image": "img/al.jpg", "type": "Code" },
-  { "pair": "AM", "word": "Amazon", "image": "img/am.jpg", "type": "Tech" },
-  { "pair": "AN", "word": "Android", "image": "img/an.jpg", "type": "Tech" },
-  { "pair": "AO", "word": "Ambient Occlusion", "image": "img/ao.jpg", "type": "Gfx" },
-  { "pair": "AP", "word": "Apple", "image": "img/ap.jpg", "type": "Tech" },
-  { "pair": "AQ", "word": "Aquaman", "image": "img/aq.jpg", "type": "Movie" },
-  { "pair": "AR", "word": "AR Rahman", "image": "img/ar.jpg", "type": "Music" },
-  { "pair": "AS", "word": "ASS", "image": "img/as.jpg", "type": "Gfx" },
-  { "pair": "AT", "word": "Attarintiki Daredi", "image": "img/at.jpg", "type": "Telugu" },
-  { "pair": "AU", "word": "Audi Car", "image": "img/au.jpg", "type": "Car" },
-  { "pair": "AV", "word": "Avatar", "image": "img/av.jpg", "type": "Movie" },
-  { "pair": "AW", "word": "AWS", "image": "img/aw.jpg", "type": "Tech" },
-  { "pair": "AX", "word": "Axe", "image": "img/ax.jpg", "type": "Object" },
-
-  { "pair": "BA", "word": "Baahubali", "image": "img/ba.jpg", "type": "Telugu" },
-  { "pair": "BB", "word": "BlackBerry", "image": "img/bb.jpg", "type": "Tech" },
-  { "pair": "BC", "word": "Bitcoin", "image": "img/bc.jpg", "type": "Tech" },
-  { "pair": "BD", "word": "Big Data", "image": "img/bd.jpg", "type": "Tech" },
-  { "pair": "BE", "word": "Benz", "image": "img/be.jpg", "type": "Car" },
-  { "pair": "BF", "word": "Battlefield", "image": "img/bf.jpg", "type": "Game" },
-  { "pair": "BG", "word": "Background", "image": "img/bg.jpg", "type": "Gfx" },
-  { "pair": "BH", "word": "Bheem (RRR)", "image": "img/bh.jpg", "type": "Telugu" },
-  { "pair": "BI", "word": "Biryani", "image": "img/bi.jpg", "type": "Food" },
-  { "pair": "BJ", "word": "Bajji", "image": "img/bj.jpg", "type": "Food" },
-  { "pair": "BK", "word": "Bike (Pulsar)", "image": "img/bk.jpg", "type": "Object" },
-  { "pair": "BL", "word": "Blender", "image": "img/bl.jpg", "type": "Soft" },
-  { "pair": "BM", "word": "Brahmi (Meme)", "image": "img/bm.jpg", "type": "Telugu" },
-  { "pair": "BN", "word": "Bandlanna", "image": "img/bn.jpg", "type": "Telugu" },
-  { "pair": "BO", "word": "Boolean", "image": "img/bo.jpg", "type": "Code" },
-  { "pair": "BP", "word": "Black Panther", "image": "img/bp.jpg", "type": "Movie" },
-  { "pair": "BQ", "word": "Barbeque", "image": "img/bq.jpg", "type": "Food" },
-  { "pair": "BR", "word": "Browser", "image": "img/br.jpg", "type": "Tech" },
-  { "pair": "BS", "word": "BSOD (Blue Screen)", "image": "img/bs.jpg", "type": "Tech" },
-  { "pair": "BT", "word": "Bluetooth", "image": "img/bt.jpg", "type": "Tech" },
-  { "pair": "BU", "word": "Bug", "image": "img/bu.jpg", "type": "Code" },
-  { "pair": "BV", "word": "Bevel", "image": "img/bv.jpg", "type": "Gfx" },
-  { "pair": "BW", "word": "BMW", "image": "img/bw.jpg", "type": "Car" },
-  { "pair": "BX", "word": "Box", "image": "img/bx.jpg", "type": "Gfx" },
-
-  { "pair": "CA", "word": "Captain America", "image": "img/ca.jpg", "type": "Movie" },
-  { "pair": "CB", "word": "Cyberpunk", "image": "img/cb.jpg", "type": "Game" },
-  { "pair": "CC", "word": "C++", "image": "img/cc.jpg", "type": "Code" },
-  { "pair": "CD", "word": "CD-ROM", "image": "img/cd.jpg", "type": "Tech" },
-  { "pair": "CE", "word": "Cellphone", "image": "img/cell.jpg", "type": "Object" },
-  { "pair": "CF", "word": "Coffee", "image": "img/cf.jpg", "type": "Game" },
-  { "pair": "CG", "word": "CGI", "image": "img/cg.jpg", "type": "Gfx" },
-  { "pair": "CH", "word": "Chiranjeevi", "image": "img/ch.jpg", "type": "Telugu" },
-  { "pair": "CI", "word": "Circuit", "image": "img/ci.jpg", "type": "Tech" },
-  { "pair": "CJ", "word": "CJ (GTA)", "image": "img/cj.jpg", "type": "Game" },
-  { "pair": "CK", "word": "Cookie", "image": "img/ck.jpg", "type": "Web" },
-  { "pair": "CL", "word": "Cloud", "image": "img/cl.jpg", "type": "Tech" },
-  { "pair": "CM", "word": "CMD (Command Prompt)", "image": "img/cm.jpg", "type": "Tech" },
-  { "pair": "CN", "word": "Cartoon Network", "image": "img/cn.jpg", "type": "TV" },
-  { "pair": "CO", "word": "Console", "image": "img/co.jpg", "type": "Tech" },
-  { "pair": "CP", "word": "CPU", "image": "img/cp.jpg", "type": "Tech" },
-  { "pair": "CQ", "word": "Coca Cola", "image": "img/cq.jpg", "type": "Drink" },
-  { "pair": "CR", "word": "Chrome", "image": "img/cr.jpg", "type": "Tech" },
-  { "pair": "CS", "word": "CSS", "image": "img/cs.jpg", "type": "Code" },
-  { "pair": "CT", "word": "Cat", "image": "img/ct.jpg", "type": "Object" },
-  { "pair": "CU", "word": "CUDA", "image": "img/cu.jpg", "type": "Gfx" },
-  { "pair": "CV", "word": "Covid", "image": "img/cv.jpg", "type": "Pandemin" },
-  { "pair": "CW", "word": "Cow", "image": "img/cw.jpg", "type": "Object" },
-  { "pair": "CX", "word": "Convex", "image": "img/cx.jpg", "type": "Math" },
-
-  { "pair": "DA", "word": "Data", "image": "img/da.jpg", "type": "Tech" },
-  { "pair": "DB", "word": "Database", "image": "img/db.jpg", "type": "Code" },
-  { "pair": "DC", "word": "DC Comics", "image": "img/dc.jpg", "type": "Movie" },
-  { "pair": "DD", "word": "Daredevil", "image": "img/dd.jpg", "type": "Movie" },
-  { "pair": "DE", "word": "Dell", "image": "img/de.jpg", "type": "Tech" },
-  { "pair": "DF", "word": "Devara (NTR)", "image": "img/df.jpg", "type": "Telugu" },
-  { "pair": "DG", "word": "Dog", "image": "img/dg.jpg", "type": "Object" },
-  { "pair": "DH", "word": "Dhoni", "image": "img/dh.jpg", "type": "Sport" },
-  { "pair": "DI", "word": "Discord", "image": "img/di.jpg", "type": "App" },
-  { "pair": "DJ", "word": "DJ Tillu", "image": "img/dj.jpg", "type": "Telugu" },
-  { "pair": "DK", "word": "Donkey Kong", "image": "img/dk.jpg", "type": "Game" },
-  { "pair": "DL", "word": "Download", "image": "img/dl.jpg", "type": "Tech" },
-  { "pair": "DM", "word": "Dookudu", "image": "img/dm.jpg", "type": "Telugu" },
-  { "pair": "DN", "word": "DNA", "image": "img/dn.jpg", "type": "Sci" },
-  { "pair": "DO", "word": "Dosa", "image": "img/do.jpg", "type": "Food" },
-  { "pair": "DP", "word": "Deadpool", "image": "img/dp.jpg", "type": "Movie" },
-  { "pair": "DQ", "word": "Dairy Queen", "image": "img/dq.jpg", "type": "Food" },
-  { "pair": "DR", "word": "Drone", "image": "img/dr.jpg", "type": "Tech" },
-  { "pair": "DS", "word": "DSLR", "image": "img/ds.jpg", "type": "Tech" },
-  { "pair": "DT", "word": "Desktop", "image": "img/dt.jpg", "type": "Tech" },
-  { "pair": "DU", "word": "Duck", "image": "img/du.jpg", "type": "Object" },
-  { "pair": "DV", "word": "DVD", "image": "img/dv.jpg", "type": "Tech" },
-  { "pair": "DW", "word": "Doctor Who", "image": "img/dw.jpg", "type": "TV" },
-  { "pair": "DX", "word": "DirectX", "image": "img/dx.jpg", "type": "Gfx" },
-
-  { "pair": "EA", "word": "EA Sports", "image": "img/ea.jpg", "type": "Game" },
-  { "pair": "EB", "word": "Ebook", "image": "img/eb.jpg", "type": "Tech" },
-  { "pair": "EC", "word": "Eclipse", "image": "img/ec.jpg", "type": "Code" },
-  { "pair": "ED", "word": "Edge (Microsoft)", "image": "img/ed.jpg", "type": "Tech" },
-  { "pair": "EE", "word": "Eega (Fly Movie)", "image": "img/ee.jpg", "type": "Telugu" },
-  { "pair": "EF", "word": "Effect", "image": "img/ef.jpg", "type": "Gfx" },
-  { "pair": "EG", "word": "Egg", "image": "img/eg.jpg", "type": "Food" },
-  { "pair": "EH", "word": "Ethernet", "image": "img/eh.jpg", "type": "Net" },
-  { "pair": "EI", "word": "Einstein", "image": "img/ei.jpg", "type": "Sci" },
-  { "pair": "EJ", "word": "Eject", "image": "img/ej.jpg", "type": "Tech" },
-  { "pair": "EK", "word": "Ekanth (Lone)", "image": "img/ek.jpg", "type": "Concept" },
-  { "pair": "EL", "word": "Elon Musk", "image": "img/el.jpg", "type": "Tech" },
-  { "pair": "EM", "word": "Email", "image": "img/em.jpg", "type": "Tech" },
-  { "pair": "EN", "word": "Enter Key", "image": "img/en.jpg", "type": "Tech" },
-  { "pair": "EO", "word": "Error", "image": "img/eo.jpg", "type": "Code" },
-  { "pair": "EP", "word": "Epic Games", "image": "img/ep.jpg", "type": "Game" },
-  { "pair": "EQ", "word": "Equalizer", "image": "img/eq.jpg", "type": "Audio" },
-  { "pair": "ER", "word": "Eren Yeager", "image": "img/er.jpg", "type": "Anime" },
-  { "pair": "ES", "word": "Escape Key", "image": "img/es.jpg", "type": "Tech" },
-  { "pair": "ET", "word": "ET (Alien)", "image": "img/et.jpg", "type": "Movie" },
-  { "pair": "EU", "word": "Euro", "image": "img/eu.jpg", "type": "Money" },
-  { "pair": "EV", "word": "EV (Electric Vehicle)", "image": "img/ev.jpg", "type": "Car" },
-  { "pair": "EW", "word": "Ewook", "image": "img/ew.jpg", "type": "StarWars" },
-  { "pair": "EX", "word": "Excel", "image": "img/ex.jpg", "type": "Soft" },
-
-  { "pair": "FA", "word": "Facebook", "image": "img/fa.jpg", "type": "App" },
-  { "pair": "FB", "word": "FB (Meta)", "image": "img/fb.jpg", "type": "App" },
-  { "pair": "FC", "word": "FC Barcelona", "image": "img/fc.jpg", "type": "Sport" },
-  { "pair": "FD", "word": "Floppy Disk", "image": "img/fd.jpg", "type": "Tech" },
-  { "pair": "FE", "word": "Ferrari", "image": "img/fe.jpg", "type": "Car" },
-  { "pair": "FF", "word": "Firefox", "image": "img/ff.jpg", "type": "Tech" },
-  { "pair": "FG", "word": "Fingers", "image": "img/fg.jpg", "type": "Body" },
-  { "pair": "FH", "word": "Full HD", "image": "img/fh.jpg", "type": "Tech" },
-  { "pair": "FI", "word": "Fidaa (Sai Pallavi)", "image": "img/fi.jpg", "type": "Telugu" },
-  { "pair": "FJ", "word": "Fujifilm", "image": "img/fj.jpg", "type": "Cam" },
-  { "pair": "FK", "word": "Flipkart", "image": "img/fk.jpg", "type": "App" },
-  { "pair": "FL", "word": "Flash", "image": "img/fl.jpg", "type": "Hero" },
-  { "pair": "FM", "word": "FM Radio", "image": "img/fm.jpg", "type": "Tech" },
-  { "pair": "FN", "word": "Fortnite", "image": "img/fn.jpg", "type": "Game" },
-  { "pair": "FO", "word": "Formula 1", "image": "img/fo.jpg", "type": "Car" },
-  { "pair": "FP", "word": "FPS", "image": "img/fp.jpg", "type": "Game" },
-  { "pair": "FQ", "word": "Frequency", "image": "img/fq.jpg", "type": "Physics" },
-  { "pair": "FR", "word": "Frame Rate", "image": "img/fr.jpg", "type": "Gfx" },
-  { "pair": "FS", "word": "Full Screen", "image": "img/fs.jpg", "type": "Tech" },
-  { "pair": "FT", "word": "FTP", "image": "img/ft.jpg", "type": "Net" },
-  { "pair": "FU", "word": "Fusion", "image": "img/fu.jpg", "type": "Sci" },
-  { "pair": "FV", "word": "Field of View (FOV)", "image": "img/fv.jpg", "type": "Gfx" },
-  { "pair": "FW", "word": "Firewall", "image": "img/fw.jpg", "type": "Net" },
-  { "pair": "FX", "word": "FX (Special Effects)", "image": "img/fx.jpg", "type": "Gfx" },
-
-  { "pair": "GA", "word": "Gamer", "image": "img/ga.jpg", "type": "Game" },
-  { "pair": "GB", "word": "Gigabyte", "image": "img/gb.jpg", "type": "Tech" },
-  { "pair": "GC", "word": "GameCube", "image": "img/gc.jpg", "type": "Game" },
-  { "pair": "GD", "word": "Google Drive", "image": "img/gd.jpg", "type": "App" },
-  { "pair": "GE", "word": "GeForce", "image": "img/ge.jpg", "type": "Gfx" },
-  { "pair": "GF", "word": "GF (Girlfriend)", "image": "img/gf.jpg", "type": "Object" },
-  { "pair": "GG", "word": "Gongura", "image": "img/gg.jpg", "type": "Telugu" },
-  { "pair": "GH", "word": "GitHub", "image": "img/gh.jpg", "type": "Tech" },
-  { "pair": "GI", "word": "Global Illumination", "image": "img/gi.jpg", "type": "Gfx" },
-  { "pair": "GJ", "word": "Gulab Jamun", "image": "img/gj.jpg", "type": "Food" },
-  { "pair": "GK", "word": "Goku", "image": "img/gk.jpg", "type": "Anime" },
-  { "pair": "GL", "word": "OpenGL", "image": "img/gl.jpg", "type": "Gfx" },
-  { "pair": "GM", "word": "Gmail", "image": "img/gm.jpg", "type": "App" },
-  { "pair": "GN", "word": "Guntur Kaaram", "image": "img/gn.jpg", "type": "Telugu" },
-  { "pair": "GO", "word": "Google", "image": "img/go.jpg", "type": "Tech" },
-  { "pair": "GP", "word": "GPU", "image": "img/gp.jpg", "type": "Tech" },
-  { "pair": "GQ", "word": "GQ Magazine", "image": "img/gq.jpg", "type": "Object" },
-  { "pair": "GR", "word": "Graphics", "image": "img/gr.jpg", "type": "Tech" },
-  { "pair": "GS", "word": "Green Screen", "image": "img/gs.jpg", "type": "Gfx" },
-  { "pair": "GT", "word": "GTA V", "image": "img/gt.jpg", "type": "Game" },
-  { "pair": "GU", "word": "GUI", "image": "img/gu.jpg", "type": "Tech" },
-  { "pair": "GV", "word": "Guntur Vibe", "image": "img/gv.jpg", "type": "Place" },
-  { "pair": "GW", "word": "Gateway", "image": "img/gw.jpg", "type": "Net" },
-  { "pair": "GX", "word": "Galaxy", "image": "img/gx.jpg", "type": "Space" },
-
-  { "pair": "HA", "word": "Hacker", "image": "img/ha.jpg", "type": "Tech" },
-  { "pair": "HB", "word": "HBO", "image": "img/hb.jpg", "type": "TV" },
-  { "pair": "HC", "word": "Hardcore", "image": "img/hc.jpg", "type": "Concept" },
-  { "pair": "HD", "word": "HDMI", "image": "img/hd.jpg", "type": "Tech" },
-  { "pair": "HE", "word": "He-Man", "image": "img/he.jpg", "type": "Cartoon" },
-  { "pair": "HF", "word": "Half-Life", "image": "img/hf.jpg", "type": "Game" },
-  { "pair": "HG", "word": "Hogwarts", "image": "img/hg.jpg", "type": "Movie" },
-  { "pair": "HH", "word": "Hulk Hogan", "image": "img/hh.jpg", "type": "Sport" },
-  { "pair": "HI", "word": "Hitman", "image": "img/hi.jpg", "type": "Game" },
-  { "pair": "HJ", "word": "Hanuman Junction", "image": "img/hj.jpg", "type": "Telugu" },
-  { "pair": "HK", "word": "Hacker", "image": "img/hk.jpg", "type": "Code" },
-  { "pair": "HL", "word": "HoloLens", "image": "img/hl.jpg", "type": "Tech" },
-  { "pair": "HM", "word": "HTML", "image": "img/hm.jpg", "type": "Code" },
-  { "pair": "HN", "word": "Hyderabadi Nawabs", "image": "img/hn.jpg", "type": "Telugu" },
-  { "pair": "HO", "word": "Hotstar", "image": "img/ho.jpg", "type": "App" },
-  { "pair": "HP", "word": "Harry Potter", "image": "img/hp.jpg", "type": "Movie" },
-  { "pair": "HQ", "word": "HQ (Headquarters)", "image": "img/hq.jpg", "type": "Place" },
-  { "pair": "HR", "word": "HR (Human Resources)", "image": "img/hr.jpg", "type": "Job" },
-  { "pair": "HS", "word": "Headset", "image": "img/hs.jpg", "type": "Tech" },
-  { "pair": "HT", "word": "HTTP", "image": "img/ht.jpg", "type": "Net" },
-  { "pair": "HU", "word": "Hulk", "image": "img/hu.jpg", "type": "Marvel" },
-  { "pair": "HV", "word": "High Voltage", "image": "img/hv.jpg", "type": "Concept" },
-  { "pair": "HW", "word": "Hardware", "image": "img/hw.jpg", "type": "Tech" },
-  { "pair": "HX", "word": "Hexagon", "image": "img/hx.jpg", "type": "Math" },
-
-  { "pair": "IA", "word": "input assembly", "image": "img/ia.jpg", "type": "Tech" },
-  { "pair": "IB", "word": "IBM", "image": "img/ib.jpg", "type": "Tech" },
-  { "pair": "IC", "word": "Iron Clad", "image": "img/ic.jpg", "type": "Game" },
-  { "pair": "ID", "word": "Idli", "image": "img/id.jpg", "type": "Food" },
-  { "pair": "IE", "word": "Internet Explorer", "image": "img/ie.jpg", "type": "Tech" },
-  { "pair": "IF", "word": "Infinity War", "image": "img/if.jpg", "type": "Movie" },
-  { "pair": "IG", "word": "Instagram", "image": "img/ig.jpg", "type": "App" },
-  { "pair": "IH", "word": "Iron Heart", "image": "img/ih.jpg", "type": "Marvel" },
-  { "pair": "II", "word": "Intel Core i", "image": "img/ii.jpg", "type": "Tech" },
-  { "pair": "IJ", "word": "Inspector J", "image": "img/ij.jpg", "type": "Role" },
-  { "pair": "IK", "word": "IKEA", "image": "img/ik.jpg", "type": "Place" },
-  { "pair": "IL", "word": "Ileana", "image": "img/il.jpg", "type": "Actress" },
-  { "pair": "IM", "word": "Iron Man", "image": "img/im.jpg", "type": "Marvel" },
-  { "pair": "IN", "word": "India", "image": "img/in.jpg", "type": "Place" },
-  { "pair": "IO", "word": "Input/Output", "image": "img/io.jpg", "type": "Tech" },
-  { "pair": "IP", "word": "IP Address", "image": "img/ip.jpg", "type": "Net" },
-  { "pair": "IQ", "word": "IQ", "image": "img/iq.jpg", "type": "Concept" },
-  { "pair": "IR", "word": "Iron", "image": "img/ir.jpg", "type": "Tech" },
-  { "pair": "IS", "word": "ISRO", "image": "img/is.jpg", "type": "Space" },
-  { "pair": "IT", "word": "IT Guy", "image": "img/it.jpg", "type": "Job" },
-  { "pair": "IU", "word": "Interface", "image": "img/iu.jpg", "type": "Tech" },
-  { "pair": "IV", "word": "Ivy (Poison)", "image": "img/iv.jpg", "type": "DC" },
-  { "pair": "IW", "word": "Infinity Ward", "image": "img/iw.jpg", "type": "Game" },
-  { "pair": "IX", "word": "Inox", "image": "img/ix.jpg", "type": "Place" },
-
-  { "pair": "JA", "word": "Java", "image": "img/ja.jpg", "type": "Code" },
-  { "pair": "JB", "word": "James Bond", "image": "img/jb.jpg", "type": "Movie" },
-  { "pair": "JC", "word": "Jackie Chan", "image": "img/jc.jpg", "type": "Actor" },
-  { "pair": "JD", "word": "Jack Daniels", "image": "img/jd.jpg", "type": "Movie" },
-  { "pair": "JE", "word": "Jedi", "image": "img/je.jpg", "type": "StarWars" },
-  { "pair": "JF", "word": "JF (JSON File)", "image": "img/jf.jpg", "type": "Code" },
-  { "pair": "JG", "word": "Jug", "image": "img/jg.jpg", "type": "Marvel" },
-  { "pair": "JH", "word": "Jai Hind", "image": "img/jh.jpg", "type": "Slogan" },
-  { "pair": "JI", "word": "Jio", "image": "img/ji.jpg", "type": "Tech" },
-  { "pair": "JJ", "word": "Jagan (CM)", "image": "img/jj.jpg", "type": "Person" },
-  { "pair": "JK", "word": "Joker", "image": "img/jk.jpg", "type": "DC" },
-  { "pair": "JL", "word": "Justice League", "image": "img/jl.jpg", "type": "Movie" },
-  { "pair": "JM", "word": "Jam", "image": "img/jm.jpg", "type": "Food" },
-  { "pair": "JN", "word": "Jarvis Node", "image": "img/jn.jpg", "type": "Tech" },
-  { "pair": "JO", "word": "Joystick", "image": "img/jo.jpg", "type": "Game" },
-  { "pair": "JP", "word": "JPEG", "image": "img/jp.jpg", "type": "Gfx" },
-  { "pair": "JQ", "word": "jQuery", "image": "img/jq.jpg", "type": "Code" },
-  { "pair": "JR", "word": "Jr NTR", "image": "img/jr.jpg", "type": "Telugu" },
-  { "pair": "JS", "word": "JavaScript", "image": "img/js.jpg", "type": "Code" },
-  { "pair": "JT", "word": "Jet", "image": "img/jt.jpg", "type": "Vehicle" },
-  { "pair": "JU", "word": "Jupiter", "image": "img/ju.jpg", "type": "Space" },
-  { "pair": "JV", "word": "Java", "image": "img/jv.jpg", "type": "Code" },
-  { "pair": "JW", "word": "John Wick", "image": "img/jw.jpg", "type": "Movie" },
-  { "pair": "JX", "word": "Jinx (LoL)", "image": "img/jx.jpg", "type": "Game" },
-
-  { "pair": "KA", "word": "Kalki 2898", "image": "img/ka.jpg", "type": "Telugu" },
-  { "pair": "KB", "word": "Keyboard", "image": "img/kb.jpg", "type": "Tech" },
-  { "pair": "KC", "word": "KCR", "image": "img/kc.jpg", "type": "Telugu" },
-  { "pair": "KD", "word": "K/D Ratio", "image": "img/kd.jpg", "type": "Game" },
-  { "pair": "KE", "word": "Kernel", "image": "img/ke.jpg", "type": "Tech" },
-  { "pair": "KF", "word": "KFC", "image": "img/kf.jpg", "type": "Food" },
-  { "pair": "KG", "word": "KGF (Rocky)", "image": "img/kg.jpg", "type": "Movie" },
-  { "pair": "KH", "word": "Khaleesi", "image": "img/kh.jpg", "type": "GoT" },
-  { "pair": "KI", "word": "Kiosk", "image": "img/ki.jpg", "type": "Tech" },
-  { "pair": "KJ", "word": "Kajal Aggarwal", "image": "img/kj.jpg", "type": "Telugu" },
-  { "pair": "KK", "word": "King Kong", "image": "img/kk.jpg", "type": "Movie" },
-  { "pair": "KL", "word": "Kali Linux", "image": "img/kl.jpg", "type": "Tech" },
-  { "pair": "KM", "word": "Kilometer", "image": "img/km.jpg", "type": "Unit" },
-  { "pair": "KN", "word": "Knife (CSGO)", "image": "img/kn.jpg", "type": "Game" },
-  { "pair": "KO", "word": "Knockout", "image": "img/ko.jpg", "type": "Sport" },
-  { "pair": "KP", "word": "K-Pop", "image": "img/kp.jpg", "type": "Music" },
-  { "pair": "KQ", "word": "King & Queen", "image": "img/kq.jpg", "type": "Cards" },
-  { "pair": "KR", "word": "Kratos (GOW)", "image": "img/kr.jpg", "type": "Game" },
-  { "pair": "KS", "word": "Kiss", "image": "img/ks.jpg", "type": "Game" },
-  { "pair": "KT", "word": "KTR", "image": "img/kt.jpg", "type": "Telugu" },
-  { "pair": "KU", "word": "Kung Fu Panda", "image": "img/ku.jpg", "type": "Movie" },
-  { "pair": "KV", "word": "Kavalayya", "image": "img/kv.jpg", "type": "Telugu" },
-  { "pair": "KW", "word": "Kwality Walls", "image": "img/kw.jpg", "type": "Food" },
-  { "pair": "KX", "word": "Knox (Samsung)", "image": "img/kx.jpg", "type": "Tech" },
-
-  { "pair": "LA", "word": "Laptop", "image": "img/la.jpg", "type": "Tech" },
-  { "pair": "LB", "word": "Library", "image": "img/lb.jpg", "type": "Code" },
-  { "pair": "LC", "word": "LCD", "image": "img/lc.jpg", "type": "Tech" },
-  { "pair": "LD", "word": "LED", "image": "img/ld.jpg", "type": "Tech" },
-  { "pair": "LE", "word": "Lens", "image": "img/le.jpg", "type": "Cam" },
-  { "pair": "LF", "word": "Luffy (One Piece)", "image": "img/lf.jpg", "type": "Anime" },
-  { "pair": "LG", "word": "LG Monitor", "image": "img/lg.jpg", "type": "Tech" },
-  { "pair": "LH", "word": "Localhost", "image": "img/lh.jpg", "type": "Code" },
-  { "pair": "LI", "word": "Link", "image": "img/li.jpg", "type": "Web" },
-  { "pair": "LJ", "word": "LeBron James", "image": "img/lj.jpg", "type": "Sport" },
-  { "pair": "LK", "word": "LinkedIn", "image": "img/lk.jpg", "type": "App" },
-  { "pair": "LL", "word": "Low Level", "image": "img/ll.jpg", "type": "Code" },
-  { "pair": "LM", "word": "Lighthouse", "image": "img/lm.jpg", "type": "Object" },
-  { "pair": "LN", "word": "LAN Cable", "image": "img/ln.jpg", "type": "Tech" },
-  { "pair": "LO", "word": "Logo", "image": "img/lo.jpg", "type": "Gfx" },
-  { "pair": "LP", "word": "Laptop", "image": "img/lp.jpg", "type": "Tech" },
-  { "pair": "LQ", "word": "Low Quality", "image": "img/lq.jpg", "type": "Gfx" },
-  { "pair": "LR", "word": "Lightroom", "image": "img/lr.jpg", "type": "Soft" },
-  { "pair": "LS", "word": "Lightsaber", "image": "img/ls.jpg", "type": "StarWars" },
-  { "pair": "LT", "word": "LTE", "image": "img/lt.jpg", "type": "Tech" },
-  { "pair": "LU", "word": "Lumia", "image": "img/lu.jpg", "type": "Phone" },
-  { "pair": "LV", "word": "Louis Vuitton", "image": "img/lv.jpg", "type": "Fashion" },
-  { "pair": "LW", "word": "Low Poly", "image": "img/lw.jpg", "type": "Gfx" },
-  { "pair": "LX", "word": "Linux", "image": "img/lx.jpg", "type": "OS" },
-
-  { "pair": "MA", "word": "MacBook", "image": "img/ma.jpg", "type": "Tech" },
-  { "pair": "MB", "word": "Megabyte", "image": "img/mb.jpg", "type": "Tech" },
-  { "pair": "MC", "word": "Minecraft", "image": "img/mc.jpg", "type": "Game" },
-  { "pair": "MD", "word": "Markdown", "image": "img/md.jpg", "type": "Code" },
-  { "pair": "ME", "word": "Metaverse", "image": "img/me.jpg", "type": "Tech" },
-  { "pair": "MF", "word": "Mainframe", "image": "img/mf.jpg", "type": "Tech" },
-  { "pair": "MG", "word": "Mahatma Gandhi", "image": "img/mg.jpg", "type": "History" },
-  { "pair": "MH", "word": "MHz", "image": "img/mh.jpg", "type": "Tech" },
-  { "pair": "MI", "word": "Mission Impossible", "image": "img/mi.jpg", "type": "Movie" },
-  { "pair": "MJ", "word": "Michael Jackson", "image": "img/mj.jpg", "type": "Music" },
-  { "pair": "MK", "word": "Mortal Kombat", "image": "img/mk.jpg", "type": "Game" },
-  { "pair": "ML", "word": "Machine Learning", "image": "img/ml.jpg", "type": "AI" },
-  { "pair": "MM", "word": "Mickey Mouse", "image": "img/mm.jpg", "type": "Cartoon" },
-  { "pair": "MN", "word": "Minions", "image": "img/mn.jpg", "type": "Movie" },
-  { "pair": "MO", "word": "Mouse", "image": "img/mo.jpg", "type": "Tech" },
-  { "pair": "MP", "word": "MP3", "image": "img/mp.jpg", "type": "Tech" },
-  { "pair": "MQ", "word": "Message Queue", "image": "img/mq.jpg", "type": "Code" },
-  { "pair": "MR", "word": "Mr. Bean", "image": "img/mr.jpg", "type": "TV" },
-  { "pair": "MS", "word": "Microsoft", "image": "img/ms.jpg", "type": "Tech" },
-  { "pair": "MT", "word": "Matrix", "image": "img/mt.jpg", "type": "Movie" },
-  { "pair": "MU", "word": "Music", "image": "img/mu.jpg", "type": "Audio" },
-  { "pair": "MV", "word": "Movie", "image": "img/mv.jpg", "type": "File" },
-  { "pair": "MW", "word": "Modern Warfare", "image": "img/mw.jpg", "type": "Game" },
-  { "pair": "MX", "word": "Max Payne", "image": "img/mx.jpg", "type": "Game" },
-
-  { "pair": "PA", "word": "Packet", "image": "img/pa.jpg", "type": "Net" },
-  { "pair": "PB", "word": "PubG", "image": "img/pb.jpg", "type": "Game" },
-  { "pair": "PC", "word": "PC", "image": "img/pc.jpg", "type": "Tech" },
-  { "pair": "PD", "word": "Pendrive", "image": "img/pd.jpg", "type": "Tech" },
-  { "pair": "PE", "word": "Petrol", "image": "img/pe.jpg", "type": "Fuel" },
-  { "pair": "PF", "word": "Pink Floyd", "image": "img/pf.jpg", "type": "Music" },
-  { "pair": "PG", "word": "PostgreSQL", "image": "img/pg.jpg", "type": "Code" },
-  { "pair": "PH", "word": "PHP", "image": "img/ph.jpg", "type": "Code" },
-  { "pair": "PI", "word": "Pixel", "image": "img/pi.jpg", "type": "Gfx" },
-  { "pair": "PJ", "word": "Projector", "image": "img/pj.jpg", "type": "Tech" },
-  { "pair": "PK", "word": "Pawan Kalyan", "image": "img/pk.jpg", "type": "Telugu" },
-  { "pair": "PL", "word": "PlayStation", "image": "img/pl.jpg", "type": "Game" },
-  { "pair": "PM", "word": "Prime Minister", "image": "img/pm.jpg", "type": "Person" },
-  { "pair": "PN", "word": "PNG", "image": "img/pn.jpg", "type": "Gfx" },
-  { "pair": "PO", "word": "Pokemon", "image": "img/po.jpg", "type": "Anime" },
-  { "pair": "PP", "word": "Prabhas", "image": "img/pp.jpg", "type": "Telugu" },
-  { "pair": "PQ", "word": "Power Quest", "image": "img/pq.jpg", "type": "Game" },
-  { "pair": "PR", "word": "Premiere Pro", "image": "img/pr.jpg", "type": "Soft" },
-  { "pair": "PS", "word": "Photoshop", "image": "img/ps.jpg", "type": "Gfx" },
-  { "pair": "PT", "word": "Python", "image": "img/pt.jpg", "type": "Code" },
-  { "pair": "PU", "word": "Pushpa", "image": "img/pu.jpg", "type": "Telugu" },
-  { "pair": "PV", "word": "PV Sindhu", "image": "img/pv.jpg", "type": "Sport" },
-  { "pair": "PW", "word": "Password", "image": "img/pw.jpg", "type": "Tech" },
-  { "pair": "PX", "word": "Pixel", "image": "img/px.jpg", "type": "Gfx" },
-
-  { "pair": "QA", "word": "QA Tester", "image": "img/qa.jpg", "type": "Job" },
-  { "pair": "QB", "word": "Qube", "image": "img/qb.jpg", "type": "Tech" },
-  { "pair": "QC", "word": "Quick Charge", "image": "img/qc.jpg", "type": "Tech" },
-  { "pair": "QD", "word": "Quad Core", "image": "img/qd.jpg", "type": "Tech" },
-  { "pair": "QE", "word": "Queen Elizabeth", "image": "img/qe.jpg", "type": "Person" },
-  { "pair": "QF", "word": "Quantumania", "image": "img/qf.jpg", "type": "Marvel" },
-  { "pair": "QG", "word": "Quantum Gun", "image": "img/qg.jpg", "type": "SciFi" },
-  { "pair": "QH", "word": "QHD", "image": "img/qh.jpg", "type": "Tech" },
-  { "pair": "QI", "word": "Qi Wireless", "image": "img/qi.jpg", "type": "Tech" },
-  { "pair": "QJ", "word": "Q-Jet", "image": "img/qj.jpg", "type": "Vehicle" },
-  { "pair": "QK", "word": "Quake", "image": "img/qk.jpg", "type": "Game" },
-  { "pair": "QL", "word": "SQL", "image": "img/ql.jpg", "type": "Code" },
-  { "pair": "QM", "word": "Quantum Realm", "image": "img/qm.jpg", "type": "Marvel" },
-  { "pair": "QN", "word": "Queen", "image": "img/qn.jpg", "type": "Card" },
-  { "pair": "QO", "word": "Quora", "image": "img/qo.jpg", "type": "Web" },
-  { "pair": "QP", "word": "Q-Pad", "image": "img/qp.jpg", "type": "Tech" },
-  { "pair": "QQ", "word": "QQ (Cry Emoji)", "image": "img/qq.jpg", "type": "Meme" },
-  { "pair": "QR", "word": "QR Code", "image": "img/qr.jpg", "type": "Tech" },
-  { "pair": "QS", "word": "QuickScope", "image": "img/qs.jpg", "type": "Game" },
-  { "pair": "QT", "word": "Qt Framework", "image": "img/qt.jpg", "type": "Code" },
-  { "pair": "QU", "word": "Quill (Guardians)", "image": "img/qu.jpg", "type": "Marvel" },
-  { "pair": "QV", "word": "Quality Video", "image": "img/qv.jpg", "type": "Tech" },
-  { "pair": "QW", "word": "QWERTY", "image": "img/qw.jpg", "type": "Tech" },
-  { "pair": "QX", "word": "Quicksilver", "image": "img/qx.jpg", "type": "Marvel" },
-
-  { "pair": "SA", "word": "Samsung", "image": "img/sa.jpg", "type": "Tech" },
-  { "pair": "SB", "word": "Sambar", "image": "img/sb.jpg", "type": "Food" },
-  { "pair": "SC", "word": "Script", "image": "img/sc.jpg", "type": "Code" },
-  { "pair": "SD", "word": "SD Card", "image": "img/sd.jpg", "type": "Tech" },
-  { "pair": "SE", "word": "Server", "image": "img/se.jpg", "type": "Tech" },
-  { "pair": "SF", "word": "Street Fighter", "image": "img/sf.jpg", "type": "Game" },
-  { "pair": "SG", "word": "Sunglass (Rayban)", "image": "img/sg.jpg", "type": "Fashion" },
-  { "pair": "SH", "word": "SSH", "image": "img/sh.jpg", "type": "Code" },
-  { "pair": "SI", "word": "Silicon Valley", "image": "img/si.jpg", "type": "Place" },
-  { "pair": "SJ", "word": "Steve Jobs", "image": "img/sj.jpg", "type": "Person" },
-  { "pair": "SK", "word": "Skype", "image": "img/sk.jpg", "type": "App" },
-  { "pair": "SL", "word": "Salaar (Prabhas)", "image": "img/sl.jpg", "type": "Telugu" },
-  { "pair": "SM", "word": "Spider-Man", "image": "img/sm.jpg", "type": "Marvel" },
-  { "pair": "SN", "word": "Sniper", "image": "img/sn.jpg", "type": "Game" },
-  { "pair": "SO", "word": "Sony", "image": "img/so.jpg", "type": "Tech" },
-  { "pair": "SP", "word": "Spotify", "image": "img/sp.jpg", "type": "App" },
-  { "pair": "SQ", "word": "SQL", "image": "img/sq.jpg", "type": "Code" },
-  { "pair": "SR", "word": "SRH (Sunrisers)", "image": "img/sr.jpg", "type": "Sport" },
-  { "pair": "SS", "word": "SS Rajamouli", "image": "img/ss.jpg", "type": "Telugu" },
-  { "pair": "ST", "word": "Stranger Things", "image": "img/st.jpg", "type": "TV" },
-  { "pair": "SU", "word": "Sudo", "image": "img/su.jpg", "type": "Code" },
-  { "pair": "SV", "word": "SVG", "image": "img/sv.jpg", "type": "Gfx" },
-  { "pair": "SW", "word": "Star Wars", "image": "img/sw.jpg", "type": "Movie" },
-  { "pair": "SX", "word": "SpaceX", "image": "img/sx.jpg", "type": "Space" },
-
-  { "pair": "TA", "word": "Tablet", "image": "img/ta.jpg", "type": "Tech" },
-  { "pair": "TB", "word": "Terabyte", "image": "img/tb.jpg", "type": "Tech" },
-  { "pair": "TC", "word": "TCP/IP", "image": "img/tc.jpg", "type": "Net" },
-  { "pair": "TD", "word": "Tirupati", "image": "img/td.jpg", "type": "Place" },
-  { "pair": "TE", "word": "Tesla", "image": "img/te.jpg", "type": "Car" },
-  { "pair": "TF", "word": "TensorFlow", "image": "img/tf.jpg", "type": "AI" },
-  { "pair": "TG", "word": "Telegram", "image": "img/tg.jpg", "type": "App" },
-  { "pair": "TH", "word": "Thor", "image": "img/th.jpg", "type": "Marvel" },
-  { "pair": "TI", "word": "Titan", "image": "img/ti.jpg", "type": "Marvel" },
-  { "pair": "TJ", "word": "Tom & Jerry", "image": "img/tj.jpg", "type": "Cartoon" },
-  { "pair": "TK", "word": "Tekken", "image": "img/tk.jpg", "type": "Game" },
-  { "pair": "TL", "word": "Timeline", "image": "img/tl.jpg", "type": "Gfx" },
-  { "pair": "TM", "word": "Terminal", "image": "img/tm.jpg", "type": "Code" },
-  { "pair": "TN", "word": "Thanos", "image": "img/tn.jpg", "type": "Marvel" },
-  { "pair": "TO", "word": "Torrent", "image": "img/to.jpg", "type": "Net" },
-  { "pair": "TP", "word": "TP-Link", "image": "img/tp.jpg", "type": "Tech" },
-  { "pair": "TQ", "word": "Torque", "image": "img/tq.jpg", "type": "Physics" },
-  { "pair": "TR", "word": "Tron", "image": "img/tr.jpg", "type": "Movie" },
-  { "pair": "TS", "word": "TypeScript", "image": "img/ts.jpg", "type": "Code" },
-  { "pair": "TT", "word": "TikTok", "image": "img/tt.jpg", "type": "App" },
-  { "pair": "TU", "word": "Tutorial", "image": "img/tu.jpg", "type": "Web" },
-  { "pair": "TV", "word": "TV", "image": "img/tv.jpg", "type": "Object" },
-  { "pair": "TW", "word": "Twitter", "image": "img/tw.jpg", "type": "App" },
-  { "pair": "TX", "word": "Texture", "image": "img/tx.jpg", "type": "Gfx" },
-
-  { "pair": "UA", "word": "USB-A", "image": "img/ua.jpg", "type": "Tech" },
-  { "pair": "UB", "word": "Ubuntu", "image": "img/ub.jpg", "type": "OS" },
-  { "pair": "UC", "word": "USB-C", "image": "img/uc.jpg", "type": "Tech" },
-  { "pair": "UD", "word": "Udemy", "image": "img/ud.jpg", "type": "Web" },
-  { "pair": "UE", "word": "Unreal Engine", "image": "img/ue.jpg", "type": "Gfx" },
-  { "pair": "UF", "word": "UFO", "image": "img/uf.jpg", "type": "SciFi" },
-  { "pair": "UG", "word": "Upgrade", "image": "img/ug.jpg", "type": "Game" },
-  { "pair": "UH", "word": "Ultra HD", "image": "img/uh.jpg", "type": "Tech" },
-  { "pair": "UI", "word": "UI Design", "image": "img/ui.jpg", "type": "Design" },
-  { "pair": "UJ", "word": "Ujjwala (Gas)", "image": "img/uj.jpg", "type": "Gov" },
-  { "pair": "UK", "word": "UK Flag", "image": "img/uk.jpg", "type": "Place" },
-  { "pair": "UL", "word": "Upload", "image": "img/ul.jpg", "type": "Net" },
-  { "pair": "UM", "word": "Umbrella (Resident Evil)", "image": "img/um.jpg", "type": "Game" },
-  { "pair": "UN", "word": "Unity", "image": "img/un.jpg", "type": "Gfx" },
-  { "pair": "UP", "word": "UPI (PhonePe)", "image": "img/up.jpg", "type": "Money" },
-  { "pair": "UQ", "word": "Unique", "image": "img/uq.jpg", "type": "Concept" },
-  { "pair": "UR", "word": "URL", "image": "img/ur.jpg", "type": "Web" },
-  { "pair": "US", "word": "USB", "image": "img/us.jpg", "type": "Tech" },
-  { "pair": "UT", "word": "uTorrent", "image": "img/ut.jpg", "type": "App" },
-  { "pair": "UU", "word": "U-Turn", "image": "img/uu.jpg", "type": "Sign" },
-  { "pair": "UV", "word": "UV Map", "image": "img/uv.jpg", "type": "Gfx" },
-  { "pair": "UW", "word": "Ultrawide Monitor", "image": "img/uw.jpg", "type": "Tech" },
-  { "pair": "UX", "word": "UX Design", "image": "img/ux.jpg", "type": "Job" },
-
-  { "pair": "VA", "word": "Valorant", "image": "img/va.jpg", "type": "Game" },
-  { "pair": "VB", "word": "Visual Basic", "image": "img/vb.jpg", "type": "Code" },
-  { "pair": "VC", "word": "VLC Player", "image": "img/vc.jpg", "type": "App" },
-  { "pair": "VD", "word": "Vijay Devarakonda", "image": "img/vd.jpg", "type": "Telugu" },
-  { "pair": "VE", "word": "Vector", "image": "img/ve.jpg", "type": "Gfx" },
-  { "pair": "VF", "word": "Vodafone", "image": "img/vf.jpg", "type": "Tech" },
-  { "pair": "VG", "word": "VGA Cable", "image": "img/vg.jpg", "type": "Tech" },
-  { "pair": "VH", "word": "VHS Tape", "image": "img/vh.jpg", "type": "Tech" },
-  { "pair": "VI", "word": "Vim Editor", "image": "img/vi.jpg", "type": "Code" },
-  { "pair": "VJ", "word": "VJ (Video Jockey)", "image": "img/vj.jpg", "type": "Job" },
-  { "pair": "VK", "word": "Virat Kohli", "image": "img/vk.jpg", "type": "Sport" },
-  { "pair": "VL", "word": "Volume", "image": "img/vl.jpg", "type": "Audio" },
-  { "pair": "VM", "word": "VMware", "image": "img/vm.jpg", "type": "Tech" },
-  { "pair": "VN", "word": "Venom", "image": "img/vn.jpg", "type": "Marvel" },
-  { "pair": "VO", "word": "Volvo", "image": "img/vo.jpg", "type": "Car" },
-  { "pair": "VP", "word": "VPN", "image": "img/vp.jpg", "type": "Net" },
-  { "pair": "VQ", "word": "Vampire", "image": "img/vq.jpg", "type": "Myth" },
-  { "pair": "VR", "word": "Virtual Reality", "image": "img/vr.jpg", "type": "Tech" },
-  { "pair": "VS", "word": "VS Code", "image": "img/vs.jpg", "type": "Code" },
-  { "pair": "VT", "word": "VTuber", "image": "img/vt.jpg", "type": "Net" },
-  { "pair": "VU", "word": "Vulkan API", "image": "img/vu.jpg", "type": "Gfx" },
-  { "pair": "VV", "word": "Venkatesh", "image": "img/vv.jpg", "type": "Telugu" },
-  { "pair": "VW", "word": "Volkswagen", "image": "img/vw.jpg", "type": "Car" },
-  { "pair": "VX", "word": "Vortex", "image": "img/vx.jpg", "type": "SciFi" },
-
-  { "pair": "WA", "word": "WhatsApp", "image": "img/wa.jpg", "type": "App" },
-  { "pair": "WB", "word": "Warner Bros", "image": "img/wb.jpg", "type": "Movie" },
-  { "pair": "WC", "word": "World Cup", "image": "img/wc.jpg", "type": "Sport" },
-  { "pair": "WD", "word": "WD (Western Digital)", "image": "img/wd.jpg", "type": "Tech" },
-  { "pair": "WE", "word": "Webcam", "image": "img/we.jpg", "type": "Tech" },
-  { "pair": "WF", "word": "WiFi", "image": "img/wf.jpg", "type": "Net" },
-  { "pair": "WG", "word": "Warangal", "image": "img/wg.jpg", "type": "Place" },
-  { "pair": "WH", "word": "White Hat", "image": "img/wh.jpg", "type": "Tech" },
-  { "pair": "WI", "word": "Windows", "image": "img/wi.jpg", "type": "OS" },
-  { "pair": "WJ", "word": "Wall Jump", "image": "img/wj.jpg", "type": "Game" },
-  { "pair": "WK", "word": "Wikipedia", "image": "img/wk.jpg", "type": "Web" },
-  { "pair": "WL", "word": "Wall-E", "image": "img/wl.jpg", "type": "Movie" },
-  { "pair": "WM", "word": "Walkman", "image": "img/wm.jpg", "type": "Tech" },
-  { "pair": "WN", "word": "Wonder Woman", "image": "img/wn.jpg", "type": "DC" },
-  { "pair": "WO", "word": "Wolverine", "image": "img/wo.jpg", "type": "Marvel" },
-  { "pair": "WP", "word": "WordPress", "image": "img/wp.jpg", "type": "Web" },
-  { "pair": "WQ", "word": "WQHD", "image": "img/wq.jpg", "type": "Tech" },
-  { "pair": "WR", "word": "Wireframe", "image": "img/wr.jpg", "type": "Gfx" },
-  { "pair": "WS", "word": "Web Server", "image": "img/ws.jpg", "type": "Tech" },
-  { "pair": "WT", "word": "Walkie Talkie", "image": "img/wt.jpg", "type": "Tech" },
-  { "pair": "WU", "word": "Wu-Tang", "image": "img/wu.jpg", "type": "Music" },
-  { "pair": "WV", "word": "WandaVision", "image": "img/wv.jpg", "type": "Marvel" },
-  { "pair": "WW", "word": "World Wide Web", "image": "img/ww.jpg", "type": "Net" },
-  { "pair": "WX", "word": "WeChat", "image": "img/wx.jpg", "type": "App" },
-
-  { "pair": "XA", "word": "Xavier (Prof X)", "image": "img/xa.jpg", "type": "Marvel" },
-  { "pair": "XB", "word": "Xbox", "image": "img/xb.jpg", "type": "Game" },
-  { "pair": "XC", "word": "Xcode", "image": "img/xc.jpg", "type": "Code" },
-  { "pair": "XD", "word": "Adobe XD", "image": "img/xd.jpg", "type": "Design" },
-  { "pair": "XE", "word": "Xeon", "image": "img/xe.jpg", "type": "Tech" },
-  { "pair": "XF", "word": "X-Files", "image": "img/xf.jpg", "type": "TV" },
-  { "pair": "XG", "word": "XGen", "image": "img/xg.jpg", "type": "Gfx" },
-  { "pair": "XH", "word": "XHTML", "image": "img/xh.jpg", "type": "Code" },
-  { "pair": "XI", "word": "Xiaomi", "image": "img/xi.jpg", "type": "Tech" },
-  { "pair": "XJ", "word": "X-Jet", "image": "img/xj.jpg", "type": "Marvel" },
-  { "pair": "XK", "word": "XKCD", "image": "img/xk.jpg", "type": "Web" },
-  { "pair": "XL", "word": "Excel", "image": "img/xl.jpg", "type": "Soft" },
-  { "pair": "XM", "word": "XML", "image": "img/xm.jpg", "type": "Code" },
-  { "pair": "XN", "word": "XNView", "image": "img/xn.jpg", "type": "Soft" },
-  { "pair": "XO", "word": "XOR Gate", "image": "img/xo.jpg", "type": "Tech" },
-  { "pair": "XP", "word": "Windows XP", "image": "img/xp.jpg", "type": "OS" },
-  { "pair": "XQ", "word": "X-Query", "image": "img/xq.jpg", "type": "Code" },
-  { "pair": "XR", "word": "XR (Extended Reality)", "image": "img/xr.jpg", "type": "Tech" },
-  { "pair": "XS", "word": "XS Max (iPhone)", "image": "img/xs.jpg", "type": "Tech" },
-  { "pair": "XT", "word": "XT (Texture)", "image": "img/xt.jpg", "type": "Gfx" },
-  { "pair": "XU", "word": "Xubuntu", "image": "img/xu.jpg", "type": "OS" },
-  { "pair": "XV", "word": "Xvid", "image": "img/xv.jpg", "type": "Tech" },
-  { "pair": "XW", "word": "X-Wing", "image": "img/xw.jpg", "type": "StarWars" },
-  { "pair": "XX", "word": "Xerox", "image": "img/xx.jpg", "type": "Object" }
+  {
+    "pair": "AA",
+    "word": "Allu Arjun",
+    "image": "img/aa.jpg"
+  },
+  {
+    "pair": "AB",
+    "word": "Abel Tesfaye",
+    "image": "img/ab.jpg"
+  },
+  {
+    "pair": "AC",
+    "word": "Assassin's Creed",
+    "image": "img/ac.jpg"
+  },
+  {
+    "pair": "AD",
+    "word": "Admin",
+    "image": "img/ad.jpg"
+  },
+  {
+    "pair": "AE",
+    "word": "Aeroplane",
+    "image": "img/ae.jpg"
+  },
+  {
+    "pair": "AF",
+    "word": "Africa",
+    "image": "img/af.jpg"
+  },
+  {
+    "pair": "AG",
+    "word": "Argentu silver",
+    "image": "img/ag.jpg"
+  },
+  {
+    "pair": "AH",
+    "word": "Adolf Hitler",
+    "image": "img/ah.jpg"
+  },
+  {
+    "pair": "AI",
+    "word": "Artificial Intelligence",
+    "image": "img/ai.jpg"
+  },
+  {
+    "pair": "AJ",
+    "word": "Arjun Reddy",
+    "image": "img/aj.jpg"
+  },
+  {
+    "pair": "AK",
+    "word": "Akhil",
+    "image": "img/ak.jpg"
+  },
+  {
+    "pair": "AL",
+    "word": "Algorithm",
+    "image": "img/al.jpg"
+  },
+  {
+    "pair": "AM",
+    "word": "Amazon",
+    "image": "img/am.jpg"
+  },
+  {
+    "pair": "AN",
+    "word": "Android",
+    "image": "img/an.jpg"
+  },
+  {
+    "pair": "AO",
+    "word": "Ambient Occlusion",
+    "image": "img/ao.jpg"
+  },
+  {
+    "pair": "AP",
+    "word": "Apple",
+    "image": "img/ap.jpg"
+  },
+  {
+    "pair": "AQ",
+    "word": "Aquaman",
+    "image": "img/aq.jpg"
+  },
+  {
+    "pair": "AR",
+    "word": "AR Rahman",
+    "image": "img/ar.jpg"
+  },
+  {
+    "pair": "AS",
+    "word": "ASS",
+    "image": "img/as.jpg"
+  },
+  {
+    "pair": "AT",
+    "word": "Attarintiki Daredi",
+    "image": "img/at.jpg"
+  },
+  {
+    "pair": "AU",
+    "word": "Audi Car",
+    "image": "img/au.jpg"
+  },
+  {
+    "pair": "AV",
+    "word": "Avatar",
+    "image": "img/av.jpg"
+  },
+  {
+    "pair": "AW",
+    "word": "AWS",
+    "image": "img/aw.jpg"
+  },
+  {
+    "pair": "AX",
+    "word": "Axe",
+    "image": "img/ax.jpg"
+  },
+  {
+    "pair": "BA",
+    "word": "Baahubali",
+    "image": "img/ba.jpg"
+  },
+  {
+    "pair": "BB",
+    "word": "BlackBerry",
+    "image": "img/bb.jpg"
+  },
+  {
+    "pair": "BC",
+    "word": "Bitcoin",
+    "image": "img/bc.jpg"
+  },
+  {
+    "pair": "BD",
+    "word": "Big Data",
+    "image": "img/bd.jpg"
+  },
+  {
+    "pair": "BE",
+    "word": "Benz",
+    "image": "img/be.jpg"
+  },
+  {
+    "pair": "BF",
+    "word": "Battlefield",
+    "image": "img/bf.jpg"
+  },
+  {
+    "pair": "BG",
+    "word": "Background",
+    "image": "img/bg.jpg"
+  },
+  {
+    "pair": "BH",
+    "word": "Bheem (RRR)",
+    "image": "img/bh.jpg"
+  },
+  {
+    "pair": "BI",
+    "word": "Biryani",
+    "image": "img/bi.jpg"
+  },
+  {
+    "pair": "BJ",
+    "word": "Bajji",
+    "image": "img/bj.jpg"
+  },
+  {
+    "pair": "BK",
+    "word": "Bike (Pulsar)",
+    "image": "img/bk.jpg"
+  },
+  {
+    "pair": "BL",
+    "word": "Blender",
+    "image": "img/bl.jpg"
+  },
+  {
+    "pair": "BM",
+    "word": "Brahmi (Meme)",
+    "image": "img/bm.jpg"
+  },
+  {
+    "pair": "BN",
+    "word": "Bandlanna",
+    "image": "img/bn.jpg"
+  },
+  {
+    "pair": "BO",
+    "word": "Boolean",
+    "image": "img/bo.jpg"
+  },
+  {
+    "pair": "BP",
+    "word": "Black Panther",
+    "image": "img/bp.jpg"
+  },
+  {
+    "pair": "BQ",
+    "word": "Barbeque",
+    "image": "img/bq.jpg"
+  },
+  {
+    "pair": "BR",
+    "word": "Browser",
+    "image": "img/br.jpg"
+  },
+  {
+    "pair": "BS",
+    "word": "BSOD (Blue Screen)",
+    "image": "img/bs.jpg"
+  },
+  {
+    "pair": "BT",
+    "word": "Bluetooth",
+    "image": "img/bt.jpg"
+  },
+  {
+    "pair": "BU",
+    "word": "Bug",
+    "image": "img/bu.jpg"
+  },
+  {
+    "pair": "BV",
+    "word": "Bevel",
+    "image": "img/bv.jpg"
+  },
+  {
+    "pair": "BW",
+    "word": "BMW",
+    "image": "img/bw.jpg"
+  },
+  {
+    "pair": "BX",
+    "word": "Box",
+    "image": "img/bx.jpg"
+  },
+  {
+    "pair": "CA",
+    "word": "Captain America",
+    "image": "img/ca.jpg"
+  },
+  {
+    "pair": "CB",
+    "word": "Cyberpunk",
+    "image": "img/cb.jpg"
+  },
+  {
+    "pair": "CC",
+    "word": "C++",
+    "image": "img/cc.jpg"
+  },
+  {
+    "pair": "CD",
+    "word": "CD-ROM",
+    "image": "img/cd.jpg"
+  },
+  {
+    "pair": "CE",
+    "word": "Cellphone",
+    "image": "img/cell.jpg"
+  },
+  {
+    "pair": "CF",
+    "word": "Coffee",
+    "image": "img/cf.jpg"
+  },
+  {
+    "pair": "CG",
+    "word": "CGI",
+    "image": "img/cg.jpg"
+  },
+  {
+    "pair": "CH",
+    "word": "Chiranjeevi",
+    "image": "img/ch.jpg"
+  },
+  {
+    "pair": "CI",
+    "word": "Circuit",
+    "image": "img/ci.jpg"
+  },
+  {
+    "pair": "CJ",
+    "word": "CJ (GTA)",
+    "image": "img/cj.jpg"
+  },
+  {
+    "pair": "CK",
+    "word": "Cookie",
+    "image": "img/ck.jpg"
+  },
+  {
+    "pair": "CL",
+    "word": "Cloud",
+    "image": "img/cl.jpg"
+  },
+  {
+    "pair": "CM",
+    "word": "CMD (Command Prompt)",
+    "image": "img/cm.jpg"
+  },
+  {
+    "pair": "CN",
+    "word": "Cartoon Network",
+    "image": "img/cn.jpg"
+  },
+  {
+    "pair": "CO",
+    "word": "Console",
+    "image": "img/co.jpg"
+  },
+  {
+    "pair": "CP",
+    "word": "CPU",
+    "image": "img/cp.jpg"
+  },
+  {
+    "pair": "CQ",
+    "word": "Coca Cola",
+    "image": "img/cq.jpg"
+  },
+  {
+    "pair": "CR",
+    "word": "Chrome",
+    "image": "img/cr.jpg"
+  },
+  {
+    "pair": "CS",
+    "word": "CSS",
+    "image": "img/cs.jpg"
+  },
+  {
+    "pair": "CT",
+    "word": "Cat",
+    "image": "img/ct.jpg"
+  },
+  {
+    "pair": "CU",
+    "word": "CUDA",
+    "image": "img/cu.jpg"
+  },
+  {
+    "pair": "CV",
+    "word": "Covid",
+    "image": "img/cv.jpg"
+  },
+  {
+    "pair": "CW",
+    "word": "Cow",
+    "image": "img/cw.jpg"
+  },
+  {
+    "pair": "CX",
+    "word": "Convex",
+    "image": "img/cx.jpg"
+  },
+  {
+    "pair": "DA",
+    "word": "Data",
+    "image": "img/da.jpg"
+  },
+  {
+    "pair": "DB",
+    "word": "Database",
+    "image": "img/db.jpg"
+  },
+  {
+    "pair": "DC",
+    "word": "DC Comics",
+    "image": "img/dc.jpg"
+  },
+  {
+    "pair": "DD",
+    "word": "Daredevil",
+    "image": "img/dd.jpg"
+  },
+  {
+    "pair": "DE",
+    "word": "Dell",
+    "image": "img/de.jpg"
+  },
+  {
+    "pair": "DF",
+    "word": "Dolphin",
+    "image": "img/df.jpg"
+  },
+  {
+    "pair": "DG",
+    "word": "Dog",
+    "image": "img/dg.jpg"
+  },
+  {
+    "pair": "DH",
+    "word": "Dhoni",
+    "image": "img/dh.jpg"
+  },
+  {
+    "pair": "DI",
+    "word": "Discord",
+    "image": "img/di.jpg"
+  },
+  {
+    "pair": "DJ",
+    "word": "DJ Tillu",
+    "image": "img/dj.jpg"
+  },
+  {
+    "pair": "DK",
+    "word": "Donkey Kong",
+    "image": "img/dk.jpg"
+  },
+  {
+    "pair": "DL",
+    "word": "Download",
+    "image": "img/dl.jpg"
+  },
+  {
+    "pair": "DM",
+    "word": "Dookudu",
+    "image": "img/dm.jpg"
+  },
+  {
+    "pair": "DN",
+    "word": "DNA",
+    "image": "img/dn.jpg"
+  },
+  {
+    "pair": "DO",
+    "word": "Dosa",
+    "image": "img/do.jpg"
+  },
+  {
+    "pair": "DP",
+    "word": "Deadpool",
+    "image": "img/dp.jpg"
+  },
+  {
+    "pair": "DQ",
+    "word": "Dairy Queen",
+    "image": "img/dq.jpg"
+  },
+  {
+    "pair": "DR",
+    "word": "Drone",
+    "image": "img/dr.jpg"
+  },
+  {
+    "pair": "DS",
+    "word": "DSLR",
+    "image": "img/ds.jpg"
+  },
+  {
+    "pair": "DT",
+    "word": "Desktop",
+    "image": "img/dt.jpg"
+  },
+  {
+    "pair": "DU",
+    "word": "Duck",
+    "image": "img/du.jpg"
+  },
+  {
+    "pair": "DV",
+    "word": "DVD",
+    "image": "img/dv.jpg"
+  },
+  {
+    "pair": "DW",
+    "word": "Doctor Who",
+    "image": "img/dw.jpg"
+  },
+  {
+    "pair": "DX",
+    "word": "DirectX",
+    "image": "img/dx.jpg"
+  },
+  {
+    "pair": "EA",
+    "word": "EA Sports",
+    "image": "img/ea.jpg"
+  },
+  {
+    "pair": "EB",
+    "word": "Ebook",
+    "image": "img/eb.jpg"
+  },
+  {
+    "pair": "EC",
+    "word": "Eclipse",
+    "image": "img/ec.jpg"
+  },
+  {
+    "pair": "ED",
+    "word": "Edge (Microsoft)",
+    "image": "img/ed.jpg"
+  },
+  {
+    "pair": "EE",
+    "word": "Eega (Fly Movie)",
+    "image": "img/ee.jpg"
+  },
+  {
+    "pair": "EF",
+    "word": "Effect",
+    "image": "img/ef.jpg"
+  },
+  {
+    "pair": "EG",
+    "word": "Egg",
+    "image": "img/eg.jpg"
+  },
+  {
+    "pair": "EH",
+    "word": "Ethernet",
+    "image": "img/eh.jpg"
+  },
+  {
+    "pair": "EI",
+    "word": "Einstein",
+    "image": "img/ei.jpg"
+  },
+  {
+    "pair": "EJ",
+    "word": "Eject",
+    "image": "img/ej.jpg"
+  },
+  {
+    "pair": "EK",
+    "word": "Eclairs",
+    "image": "img/ek.jpg"
+  },
+  {
+    "pair": "EL",
+    "word": "Elon Musk",
+    "image": "img/el.jpg"
+  },
+  {
+    "pair": "EM",
+    "word": "Email",
+    "image": "img/em.jpg"
+  },
+  {
+    "pair": "EN",
+    "word": "Enter Key",
+    "image": "img/en.jpg"
+  },
+  {
+    "pair": "EO",
+    "word": "Error",
+    "image": "img/eo.jpg"
+  },
+  {
+    "pair": "EP",
+    "word": "Epic Games",
+    "image": "img/ep.jpg"
+  },
+  {
+    "pair": "EQ",
+    "word": "Equalizer",
+    "image": "img/eq.jpg"
+  },
+  {
+    "pair": "ER",
+    "word": "Eren Yeager",
+    "image": "img/er.jpg"
+  },
+  {
+    "pair": "ES",
+    "word": "Escape Key",
+    "image": "img/es.jpg"
+  },
+  {
+    "pair": "ET",
+    "word": "ET (Alien)",
+    "image": "img/et.jpg"
+  },
+  {
+    "pair": "EU",
+    "word": "Euro",
+    "image": "img/eu.jpg"
+  },
+  {
+    "pair": "EV",
+    "word": "EV (Electric Vehicle)",
+    "image": "img/ev.jpg"
+  },
+  {
+    "pair": "EW",
+    "word": "Ewook",
+    "image": "img/ew.jpg"
+  },
+  {
+    "pair": "EX",
+    "word": "Excel",
+    "image": "img/ex.jpg"
+  },
+  {
+    "pair": "FA",
+    "word": "Facebook",
+    "image": "img/fa.jpg"
+  },
+  {
+    "pair": "FB",
+    "word": "FB (Meta)",
+    "image": "img/fb.jpg"
+  },
+  {
+    "pair": "FC",
+    "word": "FC Barcelona",
+    "image": "img/fc.jpg"
+  },
+  {
+    "pair": "FD",
+    "word": "Floppy Disk",
+    "image": "img/fd.jpg"
+  },
+  {
+    "pair": "FE",
+    "word": "Ferrari",
+    "image": "img/fe.jpg"
+  },
+  {
+    "pair": "FF",
+    "word": "Firefox",
+    "image": "img/ff.jpg"
+  },
+  {
+    "pair": "FG",
+    "word": "Fingers",
+    "image": "img/fg.jpg"
+  },
+  {
+    "pair": "FH",
+    "word": "Full HD",
+    "image": "img/fh.jpg"
+  },
+  {
+    "pair": "FI",
+    "word": "Fidaa (Sai Pallavi)",
+    "image": "img/fi.jpg"
+  },
+  {
+    "pair": "FJ",
+    "word": "Fujifilm",
+    "image": "img/fj.jpg"
+  },
+  {
+    "pair": "FK",
+    "word": "Flipkart",
+    "image": "img/fk.jpg"
+  },
+  {
+    "pair": "FL",
+    "word": "Flash",
+    "image": "img/fl.jpg"
+  },
+  {
+    "pair": "FM",
+    "word": "FM Radio",
+    "image": "img/fm.jpg"
+  },
+  {
+    "pair": "FN",
+    "word": "Fortnite",
+    "image": "img/fn.jpg"
+  },
+  {
+    "pair": "FO",
+    "word": "Formula 1",
+    "image": "img/fo.jpg"
+  },
+  {
+    "pair": "FP",
+    "word": "FPS",
+    "image": "img/fp.jpg"
+  },
+  {
+    "pair": "FQ",
+    "word": "Frequency",
+    "image": "img/fq.jpg"
+  },
+  {
+    "pair": "FR",
+    "word": "Fruit",
+    "image": "img/fr.jpg"
+  },
+  {
+    "pair": "FS",
+    "word": "Floss",
+    "image": "img/fs.jpg"
+  },
+  {
+    "pair": "FT",
+    "word": "FTP",
+    "image": "img/ft.jpg"
+  },
+  {
+    "pair": "FU",
+    "word": "Fuel",
+    "image": "img/fu.jpg"
+  },
+  {
+    "pair": "FV",
+    "word": "Field of View (FOV)",
+    "image": "img/fv.jpg"
+  },
+  {
+    "pair": "FW",
+    "word": "Firewall",
+    "image": "img/fw.jpg"
+  },
+  {
+    "pair": "FX",
+    "word": "FX (Special Effects)",
+    "image": "img/fx.jpg"
+  },
+  {
+    "pair": "GA",
+    "word": "Gamer",
+    "image": "img/ga.jpg"
+  },
+  {
+    "pair": "GB",
+    "word": "Gigabyte",
+    "image": "img/gb.jpg"
+  },
+  {
+    "pair": "GC",
+    "word": "GameCube",
+    "image": "img/gc.jpg"
+  },
+  {
+    "pair": "GD",
+    "word": "Google Drive",
+    "image": "img/gd.jpg"
+  },
+  {
+    "pair": "GE",
+    "word": "GeForce",
+    "image": "img/ge.jpg"
+  },
+  {
+    "pair": "GF",
+    "word": "GF (Girlfriend)",
+    "image": "img/gf.jpg"
+  },
+  {
+    "pair": "GG",
+    "word": "Gongura",
+    "image": "img/gg.jpg"
+  },
+  {
+    "pair": "GH",
+    "word": "GitHub",
+    "image": "img/gh.jpg"
+  },
+  {
+    "pair": "GI",
+    "word": "Global Illumination",
+    "image": "img/gi.jpg"
+  },
+  {
+    "pair": "GJ",
+    "word": "Gulab Jamun",
+    "image": "img/gj.jpg"
+  },
+  {
+    "pair": "GK",
+    "word": "Goku",
+    "image": "img/gk.jpg"
+  },
+  {
+    "pair": "GL",
+    "word": "OpenGL",
+    "image": "img/gl.jpg"
+  },
+  {
+    "pair": "GM",
+    "word": "Gmail",
+    "image": "img/gm.jpg"
+  },
+  {
+    "pair": "GN",
+    "word": "Guntur Kaaram",
+    "image": "img/gn.jpg"
+  },
+  {
+    "pair": "GO",
+    "word": "Google",
+    "image": "img/go.jpg"
+  },
+  {
+    "pair": "GP",
+    "word": "GPU",
+    "image": "img/gp.jpg"
+  },
+  {
+    "pair": "GQ",
+    "word": "GQ Magazine",
+    "image": "img/gq.jpg"
+  },
+  {
+    "pair": "GR",
+    "word": "Graphics",
+    "image": "img/gr.jpg"
+  },
+  {
+    "pair": "GS",
+    "word": "Green Screen",
+    "image": "img/gs.jpg"
+  },
+  {
+    "pair": "GT",
+    "word": "GTA V",
+    "image": "img/gt.jpg"
+  },
+  {
+    "pair": "GU",
+    "word": "GUI",
+    "image": "img/gu.jpg"
+  },
+  {
+    "pair": "GV",
+    "word": "Guntur Vibe",
+    "image": "img/gv.jpg"
+  },
+  {
+    "pair": "GW",
+    "word": "Gateway",
+    "image": "img/gw.jpg"
+  },
+  {
+    "pair": "GX",
+    "word": "Galaxy",
+    "image": "img/gx.jpg"
+  },
+  {
+    "pair": "HA",
+    "word": "Hacker",
+    "image": "img/ha.jpg"
+  },
+  {
+    "pair": "HB",
+    "word": "HBO",
+    "image": "img/hb.jpg"
+  },
+  {
+    "pair": "HC",
+    "word": "Hardcore",
+    "image": "img/hc.jpg"
+  },
+  {
+    "pair": "HD",
+    "word": "HDMI",
+    "image": "img/hd.jpg"
+  },
+  {
+    "pair": "HE",
+    "word": "He-Man",
+    "image": "img/he.jpg"
+  },
+  {
+    "pair": "HF",
+    "word": "Half-Life",
+    "image": "img/hf.jpg"
+  },
+  {
+    "pair": "HG",
+    "word": "Hogwarts",
+    "image": "img/hg.jpg"
+  },
+  {
+    "pair": "HH",
+    "word": "Hulk Hogan",
+    "image": "img/hh.jpg"
+  },
+  {
+    "pair": "HI",
+    "word": "Hitman game",
+    "image": "img/hi.jpg"
+  },
+  {
+    "pair": "HJ",
+    "word": "Hanuman Junction",
+    "image": "img/hj.jpg"
+  },
+  {
+    "pair": "HK",
+    "word": "Hacker",
+    "image": "img/hk.jpg"
+  },
+  {
+    "pair": "HL",
+    "word": "HoloLens",
+    "image": "img/hl.jpg"
+  },
+  {
+    "pair": "HM",
+    "word": "HTML",
+    "image": "img/hm.jpg"
+  },
+  {
+    "pair": "HN",
+    "word": "Hyderabadi Nawabs",
+    "image": "img/hn.jpg"
+  },
+  {
+    "pair": "HO",
+    "word": "Hotstar",
+    "image": "img/ho.jpg"
+  },
+  {
+    "pair": "HP",
+    "word": "Harry Potter",
+    "image": "img/hp.jpg"
+  },
+  {
+    "pair": "HQ",
+    "word": "HQ (Headquarters)",
+    "image": "img/hq.jpg"
+  },
+  {
+    "pair": "HR",
+    "word": "HR (Human Resources)",
+    "image": "img/hr.jpg"
+  },
+  {
+    "pair": "HS",
+    "word": "Headset",
+    "image": "img/hs.jpg"
+  },
+  {
+    "pair": "HT",
+    "word": "HTTP",
+    "image": "img/ht.jpg"
+  },
+  {
+    "pair": "HU",
+    "word": "Hulk",
+    "image": "img/hu.jpg"
+  },
+  {
+    "pair": "HV",
+    "word": "Heaven",
+    "image": "img/hv.jpg"
+  },
+  {
+    "pair": "HW",
+    "word": "Hardware",
+    "image": "img/hw.jpg"
+  },
+  {
+    "pair": "HX",
+    "word": "Hexagon",
+    "image": "img/hx.jpg"
+  },
+  {
+    "pair": "IA",
+    "word": "input assembly",
+    "image": "img/ia.jpg"
+  },
+  {
+    "pair": "IB",
+    "word": "IBM",
+    "image": "img/ib.jpg"
+  },
+  {
+    "pair": "IC",
+    "word": "Integrated circuits 555",
+    "image": "img/ic.jpg"
+  },
+  {
+    "pair": "ID",
+    "word": "Idli",
+    "image": "img/id.jpg"
+  },
+  {
+    "pair": "IE",
+    "word": "Internet Explorer",
+    "image": "img/ie.jpg"
+  },
+  {
+    "pair": "IF",
+    "word": "Infinity War",
+    "image": "img/if.jpg"
+  },
+  {
+    "pair": "IG",
+    "word": "Instagram",
+    "image": "img/ig.jpg"
+  },
+  {
+    "pair": "IH",
+    "word": "Iron heart image",
+    "image": "img/ih.jpg"
+  },
+  {
+    "pair": "II",
+    "word": "Intel Core i",
+    "image": "img/ii.jpg"
+  },
+  {
+    "pair": "IJ",
+    "word": "Inspector J",
+    "image": "img/ij.jpg"
+  },
+  {
+    "pair": "IK",
+    "word": "IKEA",
+    "image": "img/ik.jpg"
+  },
+  {
+    "pair": "IL",
+    "word": "Ileana",
+    "image": "img/il.jpg"
+  },
+  {
+    "pair": "IM",
+    "word": "Iron Man",
+    "image": "img/im.jpg"
+  },
+  {
+    "pair": "IN",
+    "word": "India",
+    "image": "img/in.jpg"
+  },
+  {
+    "pair": "IO",
+    "word": "Input/Output",
+    "image": "img/io.jpg"
+  },
+  {
+    "pair": "IP",
+    "word": "IP Address",
+    "image": "img/ip.jpg"
+  },
+  {
+    "pair": "IQ",
+    "word": "IQ",
+    "image": "img/iq.jpg"
+  },
+  {
+    "pair": "IR",
+    "word": "Iron element",
+    "image": "img/ir.jpg"
+  },
+  {
+    "pair": "IS",
+    "word": "ISRO",
+    "image": "img/is.jpg"
+  },
+  {
+    "pair": "IT",
+    "word": "IT Guy",
+    "image": "img/it.jpg"
+  },
+  {
+    "pair": "IU",
+    "word": "Interface",
+    "image": "img/iu.jpg"
+  },
+  {
+    "pair": "IV",
+    "word": "Ivy (Poison)",
+    "image": "img/iv.jpg"
+  },
+  {
+    "pair": "IW",
+    "word": "Infinity Ward",
+    "image": "img/iw.jpg"
+  },
+  {
+    "pair": "IX",
+    "word": "Inox",
+    "image": "img/ix.jpg"
+  },
+  {
+    "pair": "JA",
+    "word": "Java",
+    "image": "img/ja.jpg"
+  },
+  {
+    "pair": "JB",
+    "word": "James Bond",
+    "image": "img/jb.jpg"
+  },
+  {
+    "pair": "JC",
+    "word": "Jackie Chan",
+    "image": "img/jc.jpg"
+  },
+  {
+    "pair": "JD",
+    "word": "Jack Daniels",
+    "image": "img/jd.jpg"
+  },
+  {
+    "pair": "JE",
+    "word": "Jedi",
+    "image": "img/je.jpg"
+  },
+  {
+    "pair": "JF",
+    "word": "JF (JSON File)",
+    "image": "img/jf.jpg"
+  },
+  {
+    "pair": "JG",
+    "word": "Jug",
+    "image": "img/jg.jpg"
+  },
+  {
+    "pair": "JH",
+    "word": "Jai Hind",
+    "image": "img/jh.jpg"
+  },
+  {
+    "pair": "JI",
+    "word": "Jio",
+    "image": "img/ji.jpg"
+  },
+  {
+    "pair": "JJ",
+    "word": "Jagan (CM)",
+    "image": "img/jj.jpg"
+  },
+  {
+    "pair": "JK",
+    "word": "Joker movie heath ledger",
+    "image": "img/jk.jpg"
+  },
+  {
+    "pair": "JL",
+    "word": "Justice League",
+    "image": "img/jl.jpg"
+  },
+  {
+    "pair": "JM",
+    "word": "Jam",
+    "image": "img/jm.jpg"
+  },
+  {
+    "pair": "JN",
+    "word": "Jarvis Node",
+    "image": "img/jn.jpg"
+  },
+  {
+    "pair": "JO",
+    "word": "Joystick",
+    "image": "img/jo.jpg"
+  },
+  {
+    "pair": "JP",
+    "word": "JPEG",
+    "image": "img/jp.jpg"
+  },
+  {
+    "pair": "JQ",
+    "word": "jQuery",
+    "image": "img/jq.jpg"
+  },
+  {
+    "pair": "JR",
+    "word": "Jr NTR",
+    "image": "img/jr.jpg"
+  },
+  {
+    "pair": "JS",
+    "word": "JavaScript",
+    "image": "img/js.jpg"
+  },
+  {
+    "pair": "JT",
+    "word": "Jet",
+    "image": "img/jt.jpg"
+  },
+  {
+    "pair": "JU",
+    "word": "Jupiter",
+    "image": "img/ju.jpg"
+  },
+  {
+    "pair": "JV",
+    "word": "Java",
+    "image": "img/jv.jpg"
+  },
+  {
+    "pair": "JW",
+    "word": "John Wick",
+    "image": "img/jw.jpg"
+  },
+  {
+    "pair": "JX",
+    "word": "Jinx (LoL)",
+    "image": "img/jx.jpg"
+  },
+  {
+    "pair": "KA",
+    "word": "Kalki 2898",
+    "image": "img/ka.jpg"
+  },
+  {
+    "pair": "KB",
+    "word": "Keyboard",
+    "image": "img/kb.jpg"
+  },
+  {
+    "pair": "KC",
+    "word": "KCR",
+    "image": "img/kc.jpg"
+  },
+  {
+    "pair": "KD",
+    "word": "K/D Ratio",
+    "image": "img/kd.jpg"
+  },
+  {
+    "pair": "KE",
+    "word": "Kernel",
+    "image": "img/ke.jpg"
+  },
+  {
+    "pair": "KF",
+    "word": "KFC",
+    "image": "img/kf.jpg"
+  },
+  {
+    "pair": "KG",
+    "word": "KGF (Rocky)",
+    "image": "img/kg.jpg"
+  },
+  {
+    "pair": "KH",
+    "word": "Khaleesi",
+    "image": "img/kh.jpg"
+  },
+  {
+    "pair": "KI",
+    "word": "Kiosk",
+    "image": "img/ki.jpg"
+  },
+  {
+    "pair": "KJ",
+    "word": "Kajal Aggarwal",
+    "image": "img/kj.jpg"
+  },
+  {
+    "pair": "KK",
+    "word": "King Kong",
+    "image": "img/kk.jpg"
+  },
+  {
+    "pair": "KL",
+    "word": "Kali Linux",
+    "image": "img/kl.jpg"
+  },
+  {
+    "pair": "KM",
+    "word": "Kilometer",
+    "image": "img/km.jpg"
+  },
+  {
+    "pair": "KN",
+    "word": "Knife (CSGO)",
+    "image": "img/kn.jpg"
+  },
+  {
+    "pair": "KO",
+    "word": "Knockout",
+    "image": "img/ko.jpg"
+  },
+  {
+    "pair": "KP",
+    "word": "K-Pop",
+    "image": "img/kp.jpg"
+  },
+  {
+    "pair": "KQ",
+    "word": "King & Queen",
+    "image": "img/kq.jpg"
+  },
+  {
+    "pair": "KR",
+    "word": "Kratos (GOW)",
+    "image": "img/kr.jpg"
+  },
+  {
+    "pair": "KS",
+    "word": "Kiss",
+    "image": "img/ks.jpg"
+  },
+  {
+    "pair": "KT",
+    "word": "KTR",
+    "image": "img/kt.jpg"
+  },
+  {
+    "pair": "KU",
+    "word": "Kung Fu Panda",
+    "image": "img/ku.jpg"
+  },
+  {
+    "pair": "KV",
+    "word": "Kavalayya",
+    "image": "img/kv.jpg"
+  },
+  {
+    "pair": "KW",
+    "word": "Kwality Walls",
+    "image": "img/kw.jpg"
+  },
+  {
+    "pair": "KX",
+    "word": "Knox (Samsung)",
+    "image": "img/kx.jpg"
+  },
+  {
+    "pair": "LA",
+    "word": "Laptop",
+    "image": "img/la.jpg"
+  },
+  {
+    "pair": "LB",
+    "word": "Library",
+    "image": "img/lb.jpg"
+  },
+  {
+    "pair": "LC",
+    "word": "LCD",
+    "image": "img/lc.jpg"
+  },
+  {
+    "pair": "LD",
+    "word": "LED",
+    "image": "img/ld.jpg"
+  },
+  {
+    "pair": "LE",
+    "word": "Lens",
+    "image": "img/le.jpg"
+  },
+  {
+    "pair": "LF",
+    "word": "Luffy (One Piece)",
+    "image": "img/lf.jpg"
+  },
+  {
+    "pair": "LG",
+    "word": "LG Monitor",
+    "image": "img/lg.jpg"
+  },
+  {
+    "pair": "LH",
+    "word": "Localhost",
+    "image": "img/lh.jpg"
+  },
+  {
+    "pair": "LI",
+    "word": "Link",
+    "image": "img/li.jpg"
+  },
+  {
+    "pair": "LJ",
+    "word": "LeBron James",
+    "image": "img/lj.jpg"
+  },
+  {
+    "pair": "LK",
+    "word": "LinkedIn",
+    "image": "img/lk.jpg"
+  },
+  {
+    "pair": "LL",
+    "word": "Low Level",
+    "image": "img/ll.jpg"
+  },
+  {
+    "pair": "LM",
+    "word": "Lighthouse",
+    "image": "img/lm.jpg"
+  },
+  {
+    "pair": "LN",
+    "word": "LAN Cable",
+    "image": "img/ln.jpg"
+  },
+  {
+    "pair": "LO",
+    "word": "Logo",
+    "image": "img/lo.jpg"
+  },
+  {
+    "pair": "LP",
+    "word": "Laptop",
+    "image": "img/lp.jpg"
+  },
+  {
+    "pair": "LQ",
+    "word": "Low Quality",
+    "image": "img/lq.jpg"
+  },
+  {
+    "pair": "LR",
+    "word": "Lightroom",
+    "image": "img/lr.jpg"
+  },
+  {
+    "pair": "LS",
+    "word": "Lightsaber",
+    "image": "img/ls.jpg"
+  },
+  {
+    "pair": "LT",
+    "word": "LTE",
+    "image": "img/lt.jpg"
+  },
+  {
+    "pair": "LU",
+    "word": "Lumia",
+    "image": "img/lu.jpg"
+  },
+  {
+    "pair": "LV",
+    "word": "Louis Vuitton bag",
+    "image": "img/lv.jpg"
+  },
+  {
+    "pair": "LW",
+    "word": "Low Poly",
+    "image": "img/lw.jpg"
+  },
+  {
+    "pair": "LX",
+    "word": "Linux",
+    "image": "img/lx.jpg"
+  },
+  {
+    "pair": "MA",
+    "word": "MacBook",
+    "image": "img/ma.jpg"
+  },
+  {
+    "pair": "MB",
+    "word": "Megabyte",
+    "image": "img/mb.jpg"
+  },
+  {
+    "pair": "MC",
+    "word": "Minecraft",
+    "image": "img/mc.jpg"
+  },
+  {
+    "pair": "MD",
+    "word": "Markdown",
+    "image": "img/md.jpg"
+  },
+  {
+    "pair": "ME",
+    "word": "Metaverse",
+    "image": "img/me.jpg"
+  },
+  {
+    "pair": "MF",
+    "word": "Mainframe",
+    "image": "img/mf.jpg"
+  },
+  {
+    "pair": "MG",
+    "word": "Mahatma Gandhi",
+    "image": "img/mg.jpg"
+  },
+  {
+    "pair": "MH",
+    "word": "MHz",
+    "image": "img/mh.jpg"
+  },
+  {
+    "pair": "MI",
+    "word": "Mission Impossible",
+    "image": "img/mi.jpg"
+  },
+  {
+    "pair": "MJ",
+    "word": "Michael Jackson",
+    "image": "img/mj.jpg"
+  },
+  {
+    "pair": "MK",
+    "word": "Mortal Kombat",
+    "image": "img/mk.jpg"
+  },
+  {
+    "pair": "ML",
+    "word": "Machine Learning",
+    "image": "img/ml.jpg"
+  },
+  {
+    "pair": "MM",
+    "word": "Mickey Mouse",
+    "image": "img/mm.jpg"
+  },
+  {
+    "pair": "MN",
+    "word": "Minions",
+    "image": "img/mn.jpg"
+  },
+  {
+    "pair": "MO",
+    "word": "Mouse",
+    "image": "img/mo.jpg"
+  },
+  {
+    "pair": "MP",
+    "word": "MP3",
+    "image": "img/mp.jpg"
+  },
+  {
+    "pair": "MQ",
+    "word": "Message Queue",
+    "image": "img/mq.jpg"
+  },
+  {
+    "pair": "MR",
+    "word": "Mr. Bean",
+    "image": "img/mr.jpg"
+  },
+  {
+    "pair": "MS",
+    "word": "Microsoft",
+    "image": "img/ms.jpg"
+  },
+  {
+    "pair": "MT",
+    "word": "Matrix",
+    "image": "img/mt.jpg"
+  },
+  {
+    "pair": "MU",
+    "word": "Music",
+    "image": "img/mu.jpg"
+  },
+  {
+    "pair": "MV",
+    "word": "Movie",
+    "image": "img/mv.jpg"
+  },
+  {
+    "pair": "MW",
+    "word": "Modern Warfare",
+    "image": "img/mw.jpg"
+  },
+  {
+    "pair": "MX",
+    "word": "Max Payne",
+    "image": "img/mx.jpg"
+  },
+  {
+    "pair": "PA",
+    "word": "Packet",
+    "image": "img/pa.jpg"
+  },
+  {
+    "pair": "PB",
+    "word": "PubG",
+    "image": "img/pb.jpg"
+  },
+  {
+    "pair": "PC",
+    "word": "PC",
+    "image": "img/pc.jpg"
+  },
+  {
+    "pair": "PD",
+    "word": "Pendrive",
+    "image": "img/pd.jpg"
+  },
+  {
+    "pair": "PE",
+    "word": "Petrol",
+    "image": "img/pe.jpg"
+  },
+  {
+    "pair": "PF",
+    "word": "Pink Floyd",
+    "image": "img/pf.jpg"
+  },
+  {
+    "pair": "PG",
+    "word": "PostgreSQL",
+    "image": "img/pg.jpg"
+  },
+  {
+    "pair": "PH",
+    "word": "PHP",
+    "image": "img/ph.jpg"
+  },
+  {
+    "pair": "PI",
+    "word": "Pixel",
+    "image": "img/pi.jpg"
+  },
+  {
+    "pair": "PJ",
+    "word": "Projector",
+    "image": "img/pj.jpg"
+  },
+  {
+    "pair": "PK",
+    "word": "Pawan Kalyan",
+    "image": "img/pk.jpg"
+  },
+  {
+    "pair": "PL",
+    "word": "PlayStation",
+    "image": "img/pl.jpg"
+  },
+  {
+    "pair": "PM",
+    "word": "Prime Minister",
+    "image": "img/pm.jpg"
+  },
+  {
+    "pair": "PN",
+    "word": "PNG",
+    "image": "img/pn.jpg"
+  },
+  {
+    "pair": "PO",
+    "word": "Pokemon",
+    "image": "img/po.jpg"
+  },
+  {
+    "pair": "PP",
+    "word": "Prabhas",
+    "image": "img/pp.jpg"
+  },
+  {
+    "pair": "PQ",
+    "word": "Power Quest",
+    "image": "img/pq.jpg"
+  },
+  {
+    "pair": "PR",
+    "word": "Premiere Pro",
+    "image": "img/pr.jpg"
+  },
+  {
+    "pair": "PS",
+    "word": "Photoshop",
+    "image": "img/ps.jpg"
+  },
+  {
+    "pair": "PT",
+    "word": "Python",
+    "image": "img/pt.jpg"
+  },
+  {
+    "pair": "PU",
+    "word": "Pushpa",
+    "image": "img/pu.jpg"
+  },
+  {
+    "pair": "PV",
+    "word": "PVC pipes",
+    "image": "img/pv.jpg"
+  },
+  {
+    "pair": "PW",
+    "word": "Password",
+    "image": "img/pw.jpg"
+  },
+  {
+    "pair": "PX",
+    "word": "Pixel",
+    "image": "img/px.jpg"
+  },
+  {
+    "pair": "QA",
+    "word": "QA Tester",
+    "image": "img/qa.jpg"
+  },
+  {
+    "pair": "QB",
+    "word": "Qube",
+    "image": "img/qb.jpg"
+  },
+  {
+    "pair": "QC",
+    "word": "Quick Charge",
+    "image": "img/qc.jpg"
+  },
+  {
+    "pair": "QD",
+    "word": "Quad Core",
+    "image": "img/qd.jpg"
+  },
+  {
+    "pair": "QE",
+    "word": "Queen Elizabeth",
+    "image": "img/qe.jpg"
+  },
+  {
+    "pair": "QF",
+    "word": "Quantumania",
+    "image": "img/qf.jpg"
+  },
+  {
+    "pair": "QG",
+    "word": "Quantum Gun",
+    "image": "img/qg.jpg"
+  },
+  {
+    "pair": "QH",
+    "word": "QHD",
+    "image": "img/qh.jpg"
+  },
+  {
+    "pair": "QI",
+    "word": "Qi Wireless",
+    "image": "img/qi.jpg"
+  },
+  {
+    "pair": "QJ",
+    "word": "Q-Jet",
+    "image": "img/qj.jpg"
+  },
+  {
+    "pair": "QK",
+    "word": "Quake",
+    "image": "img/qk.jpg"
+  },
+  {
+    "pair": "QL",
+    "word": "SQL",
+    "image": "img/ql.jpg"
+  },
+  {
+    "pair": "QM",
+    "word": "Quantum Realm",
+    "image": "img/qm.jpg"
+  },
+  {
+    "pair": "QN",
+    "word": "Queen",
+    "image": "img/qn.jpg"
+  },
+  {
+    "pair": "QO",
+    "word": "Quora",
+    "image": "img/qo.jpg"
+  },
+  {
+    "pair": "QP",
+    "word": "Q-Pad",
+    "image": "img/qp.jpg"
+  },
+  {
+    "pair": "QQ",
+    "word": "QQ (Cry Emoji)",
+    "image": "img/qq.jpg"
+  },
+  {
+    "pair": "QR",
+    "word": "QR Code",
+    "image": "img/qr.jpg"
+  },
+  {
+    "pair": "QS",
+    "word": "QuickScope",
+    "image": "img/qs.jpg"
+  },
+  {
+    "pair": "QT",
+    "word": "Qt Framework",
+    "image": "img/qt.jpg"
+  },
+  {
+    "pair": "QU",
+    "word": "Quill (Guardians)",
+    "image": "img/qu.jpg"
+  },
+  {
+    "pair": "QV",
+    "word": "Quality Video",
+    "image": "img/qv.jpg"
+  },
+  {
+    "pair": "QW",
+    "word": "QWERTY",
+    "image": "img/qw.jpg"
+  },
+  {
+    "pair": "QX",
+    "word": "Quicksilver",
+    "image": "img/qx.jpg"
+  },
+  {
+    "pair": "SA",
+    "word": "Samsung",
+    "image": "img/sa.jpg"
+  },
+  {
+    "pair": "SB",
+    "word": "Sambar",
+    "image": "img/sb.jpg"
+  },
+  {
+    "pair": "SC",
+    "word": "Script",
+    "image": "img/sc.jpg"
+  },
+  {
+    "pair": "SD",
+    "word": "SD Card",
+    "image": "img/sd.jpg"
+  },
+  {
+    "pair": "SE",
+    "word": "Server",
+    "image": "img/se.jpg"
+  },
+  {
+    "pair": "SF",
+    "word": "Street Fighter",
+    "image": "img/sf.jpg"
+  },
+  {
+    "pair": "SG",
+    "word": "Sunglass (Rayban)",
+    "image": "img/sg.jpg"
+  },
+  {
+    "pair": "SH",
+    "word": "SSH",
+    "image": "img/sh.jpg"
+  },
+  {
+    "pair": "SI",
+    "word": "Silicon Valley",
+    "image": "img/si.jpg"
+  },
+  {
+    "pair": "SJ",
+    "word": "Steve Jobs",
+    "image": "img/sj.jpg"
+  },
+  {
+    "pair": "SK",
+    "word": "Skype",
+    "image": "img/sk.jpg"
+  },
+  {
+    "pair": "SL",
+    "word": "Salaar (Prabhas)",
+    "image": "img/sl.jpg"
+  },
+  {
+    "pair": "SM",
+    "word": "Spider-Man",
+    "image": "img/sm.jpg"
+  },
+  {
+    "pair": "SN",
+    "word": "Sniper",
+    "image": "img/sn.jpg"
+  },
+  {
+    "pair": "SO",
+    "word": "Sony",
+    "image": "img/so.jpg"
+  },
+  {
+    "pair": "SP",
+    "word": "Spotify",
+    "image": "img/sp.jpg"
+  },
+  {
+    "pair": "SQ",
+    "word": "SQL",
+    "image": "img/sq.jpg"
+  },
+  {
+    "pair": "SR",
+    "word": "SRH (Sunrisers)",
+    "image": "img/sr.jpg"
+  },
+  {
+    "pair": "SS",
+    "word": "SS Rajamouli",
+    "image": "img/ss.jpg"
+  },
+  {
+    "pair": "ST",
+    "word": "Stranger Things",
+    "image": "img/st.jpg"
+  },
+  {
+    "pair": "SU",
+    "word": "Sudo",
+    "image": "img/su.jpg"
+  },
+  {
+    "pair": "SV",
+    "word": "SVG",
+    "image": "img/sv.jpg"
+  },
+  {
+    "pair": "SW",
+    "word": "Star Wars",
+    "image": "img/sw.jpg"
+  },
+  {
+    "pair": "SX",
+    "word": "SpaceX",
+    "image": "img/sx.jpg"
+  },
+  {
+    "pair": "TA",
+    "word": "Tablet",
+    "image": "img/ta.jpg"
+  },
+  {
+    "pair": "TB",
+    "word": "Terabyte",
+    "image": "img/tb.jpg"
+  },
+  {
+    "pair": "TC",
+    "word": "TCP/IP",
+    "image": "img/tc.jpg"
+  },
+  {
+    "pair": "TD",
+    "word": "Tirupati",
+    "image": "img/td.jpg"
+  },
+  {
+    "pair": "TE",
+    "word": "Tesla",
+    "image": "img/te.jpg"
+  },
+  {
+    "pair": "TF",
+    "word": "TensorFlow",
+    "image": "img/tf.jpg"
+  },
+  {
+    "pair": "TG",
+    "word": "Telegram",
+    "image": "img/tg.jpg"
+  },
+  {
+    "pair": "TH",
+    "word": "Thor",
+    "image": "img/th.jpg"
+  },
+  {
+    "pair": "TI",
+    "word": "Titan",
+    "image": "img/ti.jpg"
+  },
+  {
+    "pair": "TJ",
+    "word": "Tom & Jerry",
+    "image": "img/tj.jpg"
+  },
+  {
+    "pair": "TK",
+    "word": "Tekken",
+    "image": "img/tk.jpg"
+  },
+  {
+    "pair": "TL",
+    "word": "Timeline",
+    "image": "img/tl.jpg"
+  },
+  {
+    "pair": "TM",
+    "word": "Terminal",
+    "image": "img/tm.jpg"
+  },
+  {
+    "pair": "TN",
+    "word": "Thanos",
+    "image": "img/tn.jpg"
+  },
+  {
+    "pair": "TO",
+    "word": "Torrent",
+    "image": "img/to.jpg"
+  },
+  {
+    "pair": "TP",
+    "word": "TP-Link",
+    "image": "img/tp.jpg"
+  },
+  {
+    "pair": "TQ",
+    "word": "Torque",
+    "image": "img/tq.jpg"
+  },
+  {
+    "pair": "TR",
+    "word": "Tron",
+    "image": "img/tr.jpg"
+  },
+  {
+    "pair": "TS",
+    "word": "TypeScript",
+    "image": "img/ts.jpg"
+  },
+  {
+    "pair": "TT",
+    "word": "TikTok",
+    "image": "img/tt.jpg"
+  },
+  {
+    "pair": "TU",
+    "word": "Tutorial",
+    "image": "img/tu.jpg"
+  },
+  {
+    "pair": "TV",
+    "word": "TV",
+    "image": "img/tv.jpg"
+  },
+  {
+    "pair": "TW",
+    "word": "Twitter",
+    "image": "img/tw.jpg"
+  },
+  {
+    "pair": "TX",
+    "word": "Texture",
+    "image": "img/tx.jpg"
+  },
+  {
+    "pair": "UA",
+    "word": "USB-A",
+    "image": "img/ua.jpg"
+  },
+  {
+    "pair": "UB",
+    "word": "Ubuntu",
+    "image": "img/ub.jpg"
+  },
+  {
+    "pair": "UC",
+    "word": "USB-C",
+    "image": "img/uc.jpg"
+  },
+  {
+    "pair": "UD",
+    "word": "Udemy",
+    "image": "img/ud.jpg"
+  },
+  {
+    "pair": "UE",
+    "word": "Unreal Engine",
+    "image": "img/ue.jpg"
+  },
+  {
+    "pair": "UF",
+    "word": "UFO",
+    "image": "img/uf.jpg"
+  },
+  {
+    "pair": "UG",
+    "word": "Upgrade",
+    "image": "img/ug.jpg"
+  },
+  {
+    "pair": "UH",
+    "word": "Ultra HD",
+    "image": "img/uh.jpg"
+  },
+  {
+    "pair": "UI",
+    "word": "UI Design",
+    "image": "img/ui.jpg"
+  },
+  {
+    "pair": "UJ",
+    "word": "Ujjwala (Gas)",
+    "image": "img/uj.jpg"
+  },
+  {
+    "pair": "UK",
+    "word": "UK Flag emoji",
+    "image": "img/uk.jpg"
+  },
+  {
+    "pair": "UL",
+    "word": "Upload",
+    "image": "img/ul.jpg"
+  },
+  {
+    "pair": "UM",
+    "word": "Umbrella (Resident Evil)",
+    "image": "img/um.jpg"
+  },
+  {
+    "pair": "UN",
+    "word": "Unity",
+    "image": "img/un.jpg"
+  },
+  {
+    "pair": "UP",
+    "word": "UPI (PhonePe)",
+    "image": "img/up.jpg"
+  },
+  {
+    "pair": "UQ",
+    "word": "Unique",
+    "image": "img/uq.jpg"
+  },
+  {
+    "pair": "UR",
+    "word": "URL",
+    "image": "img/ur.jpg"
+  },
+  {
+    "pair": "US",
+    "word": "USB",
+    "image": "img/us.jpg"
+  },
+  {
+    "pair": "UT",
+    "word": "uTorrent",
+    "image": "img/ut.jpg"
+  },
+  {
+    "pair": "UU",
+    "word": "U-Turn",
+    "image": "img/uu.jpg"
+  },
+  {
+    "pair": "UV",
+    "word": "UV Map",
+    "image": "img/uv.jpg"
+  },
+  {
+    "pair": "UW",
+    "word": "Ultrawide Monitor",
+    "image": "img/uw.jpg"
+  },
+  {
+    "pair": "UX",
+    "word": "UX Design",
+    "image": "img/ux.jpg"
+  },
+  {
+    "pair": "VA",
+    "word": "Valorant",
+    "image": "img/va.jpg"
+  },
+  {
+    "pair": "VB",
+    "word": "Visual Basic",
+    "image": "img/vb.jpg"
+  },
+  {
+    "pair": "VC",
+    "word": "VLC Player",
+    "image": "img/vc.jpg"
+  },
+  {
+    "pair": "VD",
+    "word": "Vijay Devarakonda",
+    "image": "img/vd.jpg"
+  },
+  {
+    "pair": "VE",
+    "word": "Vector",
+    "image": "img/ve.jpg"
+  },
+  {
+    "pair": "VF",
+    "word": "Vodafone",
+    "image": "img/vf.jpg"
+  },
+  {
+    "pair": "VG",
+    "word": "VGA Cable",
+    "image": "img/vg.jpg"
+  },
+  {
+    "pair": "VH",
+    "word": "VHS Tape",
+    "image": "img/vh.jpg"
+  },
+  {
+    "pair": "VI",
+    "word": "Vim Editor",
+    "image": "img/vi.jpg"
+  },
+  {
+    "pair": "VJ",
+    "word": "VJ (Video Jockey)",
+    "image": "img/vj.jpg"
+  },
+  {
+    "pair": "VK",
+    "word": "Virat Kohli",
+    "image": "img/vk.jpg"
+  },
+  {
+    "pair": "VL",
+    "word": "Volume",
+    "image": "img/vl.jpg"
+  },
+  {
+    "pair": "VM",
+    "word": "VMware",
+    "image": "img/vm.jpg"
+  },
+  {
+    "pair": "VN",
+    "word": "Venom",
+    "image": "img/vn.jpg"
+  },
+  {
+    "pair": "VO",
+    "word": "Volvo",
+    "image": "img/vo.jpg"
+  },
+  {
+    "pair": "VP",
+    "word": "VPN",
+    "image": "img/vp.jpg"
+  },
+  {
+    "pair": "VQ",
+    "word": "Vampire",
+    "image": "img/vq.jpg"
+  },
+  {
+    "pair": "VR",
+    "word": "Virtual Reality",
+    "image": "img/vr.jpg"
+  },
+  {
+    "pair": "VS",
+    "word": "VS Code",
+    "image": "img/vs.jpg"
+  },
+  {
+    "pair": "VT",
+    "word": "VTuber",
+    "image": "img/vt.jpg"
+  },
+  {
+    "pair": "VU",
+    "word": "Vulkan API",
+    "image": "img/vu.jpg"
+  },
+  {
+    "pair": "VV",
+    "word": "Venkatesh",
+    "image": "img/vv.jpg"
+  },
+  {
+    "pair": "VW",
+    "word": "Volkswagen",
+    "image": "img/vw.jpg"
+  },
+  {
+    "pair": "VX",
+    "word": "Vortex",
+    "image": "img/vx.jpg"
+  },
+  {
+    "pair": "WA",
+    "word": "WhatsApp",
+    "image": "img/wa.jpg"
+  },
+  {
+    "pair": "WB",
+    "word": "Warner Bros",
+    "image": "img/wb.jpg"
+  },
+  {
+    "pair": "WC",
+    "word": "World Cup",
+    "image": "img/wc.jpg"
+  },
+  {
+    "pair": "WD",
+    "word": "WD (Western Digital)",
+    "image": "img/wd.jpg"
+  },
+  {
+    "pair": "WE",
+    "word": "Webcam",
+    "image": "img/we.jpg"
+  },
+  {
+    "pair": "WF",
+    "word": "WiFi",
+    "image": "img/wf.jpg"
+  },
+  {
+    "pair": "WG",
+    "word": "Warangal",
+    "image": "img/wg.jpg"
+  },
+  {
+    "pair": "WH",
+    "word": "White Hat",
+    "image": "img/wh.jpg"
+  },
+  {
+    "pair": "WI",
+    "word": "Windows",
+    "image": "img/wi.jpg"
+  },
+  {
+    "pair": "WJ",
+    "word": "Wall Jump",
+    "image": "img/wj.jpg"
+  },
+  {
+    "pair": "WK",
+    "word": "Wikipedia",
+    "image": "img/wk.jpg"
+  },
+  {
+    "pair": "WL",
+    "word": "Wall-E",
+    "image": "img/wl.jpg"
+  },
+  {
+    "pair": "WM",
+    "word": "Walkman",
+    "image": "img/wm.jpg"
+  },
+  {
+    "pair": "WN",
+    "word": "Wonder Woman",
+    "image": "img/wn.jpg"
+  },
+  {
+    "pair": "WO",
+    "word": "Wolverine",
+    "image": "img/wo.jpg"
+  },
+  {
+    "pair": "WP",
+    "word": "WordPress",
+    "image": "img/wp.jpg"
+  },
+  {
+    "pair": "WQ",
+    "word": "WQHD",
+    "image": "img/wq.jpg"
+  },
+  {
+    "pair": "WR",
+    "word": "Wireframe mode",
+    "image": "img/wr.jpg"
+  },
+  {
+    "pair": "WS",
+    "word": "Web Server",
+    "image": "img/ws.jpg"
+  },
+  {
+    "pair": "WT",
+    "word": "Walkie Talkie",
+    "image": "img/wt.jpg"
+  },
+  {
+    "pair": "WU",
+    "word": "Wu-Tang",
+    "image": "img/wu.jpg"
+  },
+  {
+    "pair": "WV",
+    "word": "WandaVision",
+    "image": "img/wv.jpg"
+  },
+  {
+    "pair": "WW",
+    "word": "World Wide Web",
+    "image": "img/ww.jpg"
+  },
+  {
+    "pair": "WX",
+    "word": "WeChat",
+    "image": "img/wx.jpg"
+  },
+  {
+    "pair": "XA",
+    "word": "Xavier (Prof X)",
+    "image": "img/xa.jpg"
+  },
+  {
+    "pair": "XB",
+    "word": "Xbox",
+    "image": "img/xb.jpg"
+  },
+  {
+    "pair": "XC",
+    "word": "Xcode",
+    "image": "img/xc.jpg"
+  },
+  {
+    "pair": "XD",
+    "word": "Adobe XD",
+    "image": "img/xd.jpg"
+  },
+  {
+    "pair": "XE",
+    "word": "Xeon",
+    "image": "img/xe.jpg"
+  },
+  {
+    "pair": "XF",
+    "word": "X-Files",
+    "image": "img/xf.jpg"
+  },
+  {
+    "pair": "XG",
+    "word": "XGen",
+    "image": "img/xg.jpg"
+  },
+  {
+    "pair": "XH",
+    "word": "XHTML",
+    "image": "img/xh.jpg"
+  },
+  {
+    "pair": "XI",
+    "word": "Xiaomi",
+    "image": "img/xi.jpg"
+  },
+  {
+    "pair": "XJ",
+    "word": "X-Jet",
+    "image": "img/xj.jpg"
+  },
+  {
+    "pair": "XK",
+    "word": "XKCD",
+    "image": "img/xk.jpg"
+  },
+  {
+    "pair": "XL",
+    "word": "Excel",
+    "image": "img/xl.jpg"
+  },
+  {
+    "pair": "XM",
+    "word": "XML",
+    "image": "img/xm.jpg"
+  },
+  {
+    "pair": "XN",
+    "word": "XNView",
+    "image": "img/xn.jpg"
+  },
+  {
+    "pair": "XO",
+    "word": "XOR Gate",
+    "image": "img/xo.jpg"
+  },
+  {
+    "pair": "XP",
+    "word": "Windows XP",
+    "image": "img/xp.jpg"
+  },
+  {
+    "pair": "XQ",
+    "word": "X-Query",
+    "image": "img/xq.jpg"
+  },
+  {
+    "pair": "XR",
+    "word": "XR (Extended Reality)",
+    "image": "img/xr.jpg"
+  },
+  {
+    "pair": "XS",
+    "word": "XS Max (iPhone)",
+    "image": "img/xs.jpg"
+  },
+  {
+    "pair": "XT",
+    "word": "XT (Texture)",
+    "image": "img/xt.jpg"
+  },
+  {
+    "pair": "XU",
+    "word": "Xubuntu",
+    "image": "img/xu.jpg"
+  },
+  {
+    "pair": "XV",
+    "word": "Xvid",
+    "image": "img/xv.jpg"
+  },
+  {
+    "pair": "XW",
+    "word": "X-Wing",
+    "image": "img/xw.jpg"
+  },
+  {
+    "pair": "XX",
+    "word": "Xerox",
+    "image": "img/xx.jpg"
+  }
 ]
