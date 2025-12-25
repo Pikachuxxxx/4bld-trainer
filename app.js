@@ -136,21 +136,38 @@ class Trainer {
     }
 
     generateSequence() {
+        // Get Checkbox States
         const useEdges = document.getElementById('chk-edges').checked;
         const useCorners = document.getElementById('chk-corners').checked;
         const useParity = document.getElementById('chk-parity').checked;
 
+        // Get Number Values
+        let edgeCount = parseInt(document.getElementById('num-edges').value) || 10;
+        let cornerCount = parseInt(document.getElementById('num-corners').value) || 6;
+
         let seq = [];
         const rnd = () => this.data[Math.floor(Math.random() * this.data.length)];
         
-        if(useEdges) for(let i=0; i<10; i++) seq.push(rnd());
-        if(useCorners) for(let i=0; i<6; i++) seq.push(rnd());
+        // Push Edges
+        if (useEdges) {
+            for(let i = 0; i < edgeCount; i++) seq.push(rnd());
+        }
+
+        // Push Corners
+        if (useCorners) {
+            for(let i = 0; i < cornerCount; i++) seq.push(rnd());
+        }
         
+        // Handle Parity
+        // If parity is ON, ensure total length is ODD.
+        // If parity is OFF, ensure total length is EVEN.
         const isOdd = seq.length % 2 !== 0;
-        if ((useParity && !isOdd) || (!useParity && isOdd)) seq.push(rnd());
+        if ((useParity && !isOdd) || (!useParity && isOdd)) {
+            seq.push(rnd());
+        }
+
         this.currentSequence = seq;
     }
-
     renderMemo() {
         if(this.currentMemoIndex >= this.currentSequence.length) {
             this.startExec();
