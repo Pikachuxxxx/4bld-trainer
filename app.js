@@ -137,16 +137,23 @@ class Trainer {
 
     generateSequence() {
         // Get Checkbox States
+        const useCenters = document.getElementById('chk-centers').checked;
         const useEdges = document.getElementById('chk-edges').checked;
         const useCorners = document.getElementById('chk-corners').checked;
         const useParity = document.getElementById('chk-parity').checked;
 
         // Get Number Values
+        let centerCount = parseInt(document.getElementById('num-centers').value) || 2;
         let edgeCount = parseInt(document.getElementById('num-edges').value) || 10;
         let cornerCount = parseInt(document.getElementById('num-corners').value) || 6;
 
         let seq = [];
         const rnd = () => this.data[Math.floor(Math.random() * this.data.length)];
+
+        // Push useCenters
+        if (useCenters) {
+            for(let i = 0; i < centerCount; i++) seq.push(rnd());
+        }
         
         // Push Edges
         if (useEdges) {
