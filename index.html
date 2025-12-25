@@ -3,79 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>4BLD Trainer</title>
+    <title>4BLD Trainer Pro</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div id="app" class="mode-idle">
-        <!-- Heads Up Display -->
+        
+        <!-- HUD -->
         <div class="hud">
-            <div class="status-left">
+            <div class="hud-left">
                 <span id="mode-text">IDLE</span>
-                <span id="timer" style="margin-left: 15px;">0.00s</span>
             </div>
-            <div class="status-right">
-                <span id="stats-toggle">View Stats</span>
-            </div>
-        </div>
-
-        <!-- Hidden Stats Panel -->
-        <div id="stats-panel">
-            <div class="stat-header">SESSION STATS <span style="float:right; cursor:pointer;" id="close-stats">×</span></div>
-            <div class="stat-row"><span>Total Solves:</span> <span id="st-total">0</span></div>
-            <div class="stat-row"><span>Success Rate:</span> <span id="st-rate">0%</span></div>
-            <div class="stat-row"><span>Best Time:</span> <span id="st-best">-</span></div>
-            <div class="stat-row"><span>Avg Time (All):</span> <span id="st-avg">-</span></div>
-            <div class="history-list" id="st-history">
-                <!-- History items injected here -->
-            </div>
-            <div style="text-align:center; margin-top:10px;">
-                <button onclick="localStorage.removeItem('4bld_stats'); location.reload();" style="font-size:0.7rem; background:none; border:1px solid #555; color:#aaa; padding:2px 5px; cursor:pointer;">Reset Data</button>
+            <div class="hud-right">
+                <button id="btn-study" class="hud-btn">📖 Study</button>
+                <button id="btn-stats" class="hud-btn">📊 Stats</button>
+                <span id="timer">0.00s</span>
             </div>
         </div>
 
         <div id="content-area">
             
-            <!-- Idle Screen -->
+            <!-- 1. IDLE -->
             <div id="screen-idle" class="screen active">
-                <h1 style="font-size: 3rem; margin-bottom: 0;">4BLD Trainer</h1>
-                <p style="opacity: 0.7;">Parity? Just type the single letter at the end.</p>
+                <h1>4BLD Trainer</h1>
+                <p>Press <b>SPACE</b> to Start</p>
                 <div class="settings">
                     <label><input type="checkbox" id="chk-edges" checked> Edges</label>
                     <label><input type="checkbox" id="chk-corners" checked> Corners</label>
-                    <label><input type="checkbox" id="chk-parity" checked> Random Parity</label>
+                    <label><input type="checkbox" id="chk-parity" checked> Parity</label>
                 </div>
-                <p class="hint">Press SPACE to Start</p>
             </div>
 
-            <!-- Memo Screen -->
+            <!-- 2. MEMO -->
             <div id="screen-memo" class="screen">
-                <div class="image-container">
+                <div class="card-display">
                     <img id="memo-img" src="" alt="Target">
-                    <div class="memo-label" id="memo-word">WORD</div>
-                    <div class="memo-type" id="memo-type">1/12</div>
+                    <div class="card-text">
+                        <div id="memo-word">WORD</div>
+                        <div id="memo-type">1 / 10</div>
+                    </div>
                 </div>
-                <div class="progress-bar">
-                    <div id="memo-progress" style="width: 0%"></div>
-                </div>
-                <p class="hint">SPACE: Next Image • ENTER: Skip to Recall</p>
+                <div class="progress-bar"><div id="memo-progress"></div></div>
+                <p class="hint">SPACE: Next • ENTER: Recall</p>
             </div>
 
-            <!-- Execution Screen -->
+            <!-- 3. EXECUTION (Added Button Here) -->
             <div id="screen-exec" class="screen">
-                <h2 style="opacity:0.8;">RECALL</h2>
+                <h2>Recall Phase</h2>
                 <div id="input-history"></div>
+                
                 <input type="text" id="user-input" placeholder="AB" maxlength="2" autocomplete="off">
-                <p class="hint">Type Pairs • SPACE to Finish</p>
+                
+                <!-- NEW FINISH BUTTON -->
+                <button id="btn-finish-run" class="finish-btn">FINISH RUN</button>
+                
+                <p class="hint">Type Pair • Press Button to End</p>
             </div>
 
-            <!-- Result Screen -->
+            <!-- 4. RESULT -->
             <div id="screen-result" class="screen">
-                <div id="score-display">Perfect!</div>
-                <div id="time-display" style="font-size: 1.2rem; opacity: 0.8;">20.5s</div>
+                <h2 id="res-title">Results</h2>
+                <div class="result-summary">
+                    <div class="res-box">
+                        <span>Total</span>
+                        <b id="time-total">0.00s</b>
+                    </div>
+                    <div class="res-box">
+                        <span>Memo</span>
+                        <b id="time-memo">0.00s</b>
+                    </div>
+                    <div class="res-box">
+                        <span>Exec</span>
+                        <b id="time-exec">0.00s</b>
+                    </div>
+                </div>
+                <h3 id="score-display">0/0</h3>
                 <div id="result-list"></div>
-                <p class="hint">Press SPACE to Restart</p>
+                <p class="hint">SPACE: Restart</p>
+            </div>
+
+            <!-- 5. STATS -->
+            <div id="screen-stats" class="screen overlay">
+                <div class="overlay-header">
+                    <h2>Statistics</h2>
+                    <button id="btn-close-stats" class="close-btn">×</button>
+                </div>
+                
+                <div class="stats-grid">
+                    <div class="stat-box"><span>Solves</span><b id="st-total">0</b></div>
+                    <div class="stat-box"><span>Success</span><b id="st-rate">0%</b></div>
+                    <div class="stat-box"><span>Best</span><b id="st-best">-</b></div>
+                    <div class="stat-box"><span>Avg</span><b id="st-avg">-</b></div>
+                </div>
+
+                <div class="table-wrap">
+                    <table class="stats-table">
+                        <thead>
+                            <tr>
+                                <th>Result</th>
+                                <th>Memo</th>
+                                <th>Exec</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody id="stats-body"></tbody>
+                    </table>
+                </div>
+                <button id="btn-reset-stats" class="hud-btn" style="margin-top:10px; border-color:#555;">Reset Data</button>
+            </div>
+
+            <!-- 6. STUDY -->
+            <div id="screen-study" class="screen">
+                <div class="study-header">
+                    <h2>Study Mode</h2>
+                    <select id="study-filter"><option value="ALL">All Letters</option></select>
+                </div>
+                <div class="study-card">
+                    <div id="study-pair" style="color:#facc15; font-size:3rem; font-weight:bold;">AB</div>
+                    <img id="study-img" src="" alt="Study">
+                    <div id="study-word" style="font-size:1.5rem; margin-top:10px;">Word</div>
+                </div>
+                <div class="study-nav">
+                    <button id="btn-prev" class="hud-btn">← Prev</button>
+                    <button id="btn-next" class="hud-btn">Next →</button>
+                </div>
+                <button id="btn-exit-study" class="hud-btn" style="margin-top:20px;">Exit Study</button>
             </div>
 
         </div>
