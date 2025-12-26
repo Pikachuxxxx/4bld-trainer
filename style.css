@@ -1,110 +1,365 @@
+/* =========================================================
+   ROOT VARIABLES
+   ========================================================= */
 :root {
-    --bg-idle: #1e3a8a;    /* Blue */
-    --bg-memo: #c2410c;    /* Orange */
-    --bg-exec: #15803d;    /* Green */
-    --bg-dark: #1f2937;    /* Dark (Stats/Results) */
-    --text: #f3f4f6;
+    --bg-idle:  #1e3a8a; /* Blue */
+    --bg-memo:  #c2410c; /* Orange */
+    --bg-exec:  #15803d; /* Green */
+    --bg-dark:  #1f2937; /* Dark (Stats/Results) */
+    --text:     #f3f4f6;
 }
 
-{
-    touch-action: manipulation; /* Prevents double-tap zoom */
-    -webkit-tap-highlight-color: transparent; /* Removes blue tap box */
-    user-select: none; /* Prevents text selection while tapping */
+/* =========================================================
+   GLOBAL INTERACTION SETTINGS
+   ========================================================= */
+* {
+    touch-action: manipulation;            /* Prevent double-tap zoom */
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
 }
 
-/* Make images smaller on mobile so everything fits */
-@media (max-width: 600px) {
-    #memo-img, #study-img {
-        max-height: 30vh;
+/* =========================================================
+   BASE LAYOUT
+   ========================================================= */
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+
+    background: var(--bg-idle);
+    color: var(--text);
+    font-family: sans-serif;
+}
+
+#app {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    transition: background 0.3s;
+}
+
+/* =========================================================
+   MODE BACKGROUNDS
+   ========================================================= */
+.mode-idle   { background-color: var(--bg-idle); }
+.mode-memo   { background-color: var(--bg-memo); }
+.mode-exec   { background-color: var(--bg-exec); }
+.mode-result,
+.mode-stats,
+.mode-study  { background-color: var(--bg-dark); }
+
+/* =========================================================
+   HUD
+   ========================================================= */
+.hud {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    padding: 15px 20px;
+
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.hud-right {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.hud-btn {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color: white;
+
+    padding: 5px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.hud-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+/* =========================================================
+   SCREENS & TRANSITIONS
+   ========================================================= */
+.screen {
+    display: none;
+    width: 100%;
+    max-width: 600px;
+
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.screen.active {
+    display: flex;
+    animation: fadeUp 0.2s;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
     }
-    
-    .hud {
-        padding: 10px;
-        font-size: 0.8rem;
+    to {
+        opacity: 1;
+        transform: translateY(0);
     }
-    
-    h1 { margin: 10px 0; font-size: 1.5rem; }
-    
-    /* Make the input box and finish button easier to hit */
-    #user-input { width: 100%; max-width: 200px; }
-    .finish-btn { width: 100%; max-width: 250px; padding: 20px; }
 }
 
-body { margin: 0; background: var(--bg-idle); color: var(--text); font-family: sans-serif; height: 100vh; overflow: hidden; }
+/* =========================================================
+   IDLE / SETTINGS
+   ========================================================= */
+.settings {
+    display: flex;
+    gap: 15px;
 
-/* DYNAMIC BACKGROUNDS */
-#app { height: 100%; display: flex; flex-direction: column; align-items: center; justify-content: center; transition: background 0.3s; }
-.mode-idle { background-color: var(--bg-idle); }
-.mode-memo { background-color: var(--bg-memo); }
-.mode-exec { background-color: var(--bg-exec); }
-.mode-result, .mode-stats, .mode-study { background-color: var(--bg-dark); }
+    background: rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
 
-/* HUD */
-.hud { position: absolute; top: 0; width: 100%; padding: 15px 20px; display: flex; justify-content: space-between; box-sizing: border-box; background: rgba(0,0,0,0.3); }
-.hud-right { display: flex; gap: 10px; align-items: center; }
-.hud-btn { background: rgba(255,255,255,0.15); border: 1px solid rgba(255,255,255,0.3); color: white; padding: 5px 12px; cursor: pointer; border-radius: 4px; }
-.hud-btn:hover { background: rgba(255,255,255,0.3); }
+/* =========================================================
+   MEMO MODE
+   ========================================================= */
+.card-display {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+}
 
-/* SCREENS */
-.screen { display: none; width: 100%; max-width: 600px; flex-direction: column; align-items: center; text-align: center; }
-.screen.active { display: flex; animation: fadeUp 0.2s; }
-@keyframes fadeUp { from { opacity:0; transform:translateY(10px); } to { opacity:1; transform:translateY(0); } }
+#memo-img {
+    max-height: 40vh;
+    max-width: 100%;
+    border-radius: 4px;
+}
 
-/* IDLE */
-.settings { display: flex; gap: 15px; background: rgba(0,0,0,0.2); padding: 15px; border-radius: 8px; margin-top: 10px; }
+#memo-word {
+    margin-top: 10px;
+    font-size: 2rem;
+    font-weight: bold;
+}
 
-/* MEMO */
-.card-display { background: rgba(0,0,0,0.3); padding: 20px; border-radius: 12px; margin-bottom: 15px; }
-#memo-img { max-height: 40vh; max-width: 100%; border-radius: 4px; }
-#memo-word { font-size: 2rem; font-weight: bold; margin-top: 10px; }
-.progress-bar { width: 100%; height: 6px; background: rgba(255,255,255,0.2); border-radius: 3px; }
-#memo-progress { height: 100%; background: white; transition: width 0.2s; }
+.progress-bar {
+    width: 100%;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 3px;
+}
 
-/* EXEC */
-#user-input { background: rgba(0,0,0,0.4); border: 2px solid rgba(255,255,255,0.5); color: white; font-size: 3rem; width: 160px; text-align: center; border-radius: 8px; text-transform: uppercase; }
-#input-history { display: flex; gap: 5px; flex-wrap: wrap; justify-content: center; margin-bottom: 20px; min-height: 35px; }
-.chip { background: rgba(255,255,255,0.2); padding: 5px 10px; border-radius: 4px; font-family: monospace; }
+#memo-progress {
+    height: 100%;
+    background: white;
+    transition: width 0.2s;
+}
 
-/* STATS (Table View) */
-.overlay { background: rgba(0,0,0,0.9); padding: 30px; border-radius: 10px; height: auto; max-height: 90vh; }
-.overlay-header { width: 100%; display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
-.close-btn { background: none; border: none; font-size: 2rem; color: #aaa; cursor: pointer; }
+/* =========================================================
+   EXEC MODE
+   ========================================================= */
+#user-input {
+    width: 160px;
 
-.stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; width: 100%; margin-bottom: 20px; }
-.stat-box { background: rgba(255,255,255,0.1); padding: 10px; border-radius: 5px; display: flex; flex-direction: column; }
-.stat-box span { font-size: 0.8rem; opacity: 0.7; }
-.stat-box b { font-size: 1.2rem; }
+    background: rgba(0, 0, 0, 0.4);
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
 
-.table-wrap { width: 100%; max-height: 40vh; overflow-y: auto; background: rgba(0,0,0,0.2); border-radius: 5px; }
-.stats-table { width: 100%; border-collapse: collapse; text-align: left; }
-.stats-table th { background: rgba(255,255,255,0.1); padding: 10px; position: sticky; top: 0; }
-.stats-table td { border-bottom: 1px solid rgba(255,255,255,0.05); padding: 8px; font-size: 0.9rem; }
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    text-transform: uppercase;
+}
 
-/* STUDY */
-.study-card { background: rgba(255,255,255,0.1); padding: 20px; border-radius: 15px; margin: 20px 0; width: 80%; display: flex; flex-direction: column; align-items: center; }
-#study-img { max-height: 250px; max-width: 100%; border-radius: 5px; }
-.study-nav { display: flex; gap: 20px; }
+#input-history {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
 
-/* RESULTS */
-#result-list { max-height: 40vh; overflow-y: auto; width: 100%; }
-.res-row { display: flex; justify-content: space-between; padding: 8px; background: rgba(255,255,255,0.1); margin-bottom: 5px; border-radius: 4px; }
-.res-correct { border-left: 4px solid #4ade80; }
-.res-wrong { border-left: 4px solid #ef4444; background: rgba(239, 68, 68, 0.2); }
+    margin-bottom: 20px;
+    min-height: 35px;
+}
 
-/* --- Add to your CSS --- */
+.chip {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-family: monospace;
+}
 
+/* =========================================================
+   STATS OVERLAY
+   ========================================================= */
+.overlay {
+    background: rgba(0, 0, 0, 0.9);
+    padding: 30px;
+    border-radius: 10px;
+
+    max-height: 90vh;
+}
+
+.overlay-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.close-btn {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #aaa;
+    cursor: pointer;
+}
+
+/* --- Stats Grid --- */
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.stat-box {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.stat-box span {
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+.stat-box b {
+    font-size: 1.2rem;
+}
+
+/* --- Stats Table --- */
+.table-wrap {
+    width: 100%;
+    max-height: 40vh;
+    overflow-y: auto;
+
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+}
+
+.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+}
+
+.stats-table th {
+    position: sticky;
+    top: 0;
+
+    background: rgba(255, 255, 255, 0.1);
+    padding: 10px;
+}
+
+.stats-table td {
+    padding: 8px;
+    font-size: 0.9rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* =========================================================
+   STUDY MODE
+   ========================================================= */
+.study-card {
+    width: 80%;
+    margin: 20px 0;
+
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#study-img {
+    max-height: 250px;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.study-nav {
+    display: flex;
+    gap: 20px;
+}
+
+/* =========================================================
+   RESULTS
+   ========================================================= */
+#result-list {
+    width: 100%;
+    max-height: 40vh;
+    overflow-y: auto;
+}
+
+.res-row {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 4px;
+
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.res-correct {
+    border-left: 4px solid #4ade80;
+}
+
+.res-wrong {
+    border-left: 4px solid #ef4444;
+    background: rgba(239, 68, 68, 0.2);
+}
+
+/* =========================================================
+   FINISH BUTTON
+   ========================================================= */
 .finish-btn {
-    background: #10b981; /* Green */
+    margin-top: 20px;
+    padding: 15px 40px;
+
+    background: #10b981;
     color: white;
     border: none;
-    font-size: 1.5rem;
-    padding: 15px 40px;
     border-radius: 8px;
-    margin-top: 20px;
-    cursor: pointer;
+
+    font-size: 1.5rem;
     font-weight: bold;
-    box-shadow: 0 4px 0 #059669; /* 3D effect */
+    cursor: pointer;
+
+    box-shadow: 0 4px 0 #059669;
     transition: transform 0.1s;
+}
+
+.finish-btn:hover {
+    background: #34d399;
 }
 
 .finish-btn:active {
@@ -112,10 +367,9 @@ body { margin: 0; background: var(--bg-idle); color: var(--text); font-family: s
     box-shadow: none;
 }
 
-.finish-btn:hover {
-    background: #34d399;
-}
-
+/* =========================================================
+   RESULT SUMMARY
+   ========================================================= */
 .result-summary {
     display: flex;
     gap: 15px;
@@ -123,32 +377,46 @@ body { margin: 0; background: var(--bg-idle); color: var(--text); font-family: s
 }
 
 .res-box {
-    background: rgba(255,255,255,0.1);
+    min-width: 80px;
     padding: 10px;
     border-radius: 5px;
-    text-align: center;
-    min-width: 80px;
-}
-.res-box span { display: block; font-size: 0.8rem; opacity: 0.7; }
-.res-box b { font-size: 1.2rem; }
 
-/* Settings UI */
+    background: rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+.res-box span {
+    display: block;
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+.res-box b {
+    font-size: 1.2rem;
+}
+
+/* =========================================================
+   SETTINGS UI
+   ========================================================= */
 .settings-box {
-    background: rgba(0,0,0,0.3);
+    width: 300px;
+    margin-top: 20px;
+
+    background: rgba(0, 0, 0, 0.3);
     padding: 20px;
     border-radius: 10px;
+
     display: flex;
     flex-direction: column;
     gap: 15px;
-    width: 300px;
-    margin-top: 20px;
 }
 
 .setting-row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: rgba(255,255,255,0.05);
+
+    background: rgba(255, 255, 255, 0.05);
     padding: 10px;
     border-radius: 5px;
 }
@@ -157,6 +425,7 @@ body { margin: 0; background: var(--bg-idle); color: var(--text); font-family: s
     display: flex;
     align-items: center;
     gap: 10px;
+
     cursor: pointer;
     font-weight: bold;
     font-size: 1.1rem;
@@ -167,12 +436,46 @@ body { margin: 0; background: var(--bg-idle); color: var(--text); font-family: s
 }
 
 .num-input {
-    background: rgba(0,0,0,0.5);
-    border: 1px solid #555;
-    color: white;
     width: 60px;
     padding: 5px;
+
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #555;
     border-radius: 5px;
+
+    color: white;
     text-align: center;
     font-size: 1rem;
 }
+
+/* =========================================================
+   MOBILE RESPONSIVE
+   ========================================================= */
+@media (max-width: 600px) {
+    #memo-img,
+    #study-img {
+        max-height: 30vh;
+    }
+
+    .hud {
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+
+    h1 {
+        margin: 10px 0;
+        font-size: 1.5rem;
+    }
+
+    #user-input {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .finish-btn {
+        width: 100%;
+        max-width: 250px;
+        padding: 20px;
+    }
+}
+
