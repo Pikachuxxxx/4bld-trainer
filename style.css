@@ -6,6 +6,30 @@
     --text: #f3f4f6;
 }
 
+{
+    touch-action: manipulation; /* Prevents double-tap zoom */
+    -webkit-tap-highlight-color: transparent; /* Removes blue tap box */
+    user-select: none; /* Prevents text selection while tapping */
+}
+
+/* Make images smaller on mobile so everything fits */
+@media (max-width: 600px) {
+    #memo-img, #study-img {
+        max-height: 30vh;
+    }
+    
+    .hud {
+        padding: 10px;
+        font-size: 0.8rem;
+    }
+    
+    h1 { margin: 10px 0; font-size: 1.5rem; }
+    
+    /* Make the input box and finish button easier to hit */
+    #user-input { width: 100%; max-width: 200px; }
+    .finish-btn { width: 100%; max-width: 250px; padding: 20px; }
+}
+
 body { margin: 0; background: var(--bg-idle); color: var(--text); font-family: sans-serif; height: 100vh; overflow: hidden; }
 
 /* DYNAMIC BACKGROUNDS */

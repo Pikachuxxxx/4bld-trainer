@@ -58,6 +58,22 @@ class Trainer {
     }
 
     attachListeners() {
+
+        this.ui.app.addEventListener('click', (e) => {
+            // Ignore if clicking a button, input, or link
+            const tag = e.target.tagName;
+            if (tag === 'BUTTON' || tag === 'INPUT' || tag === 'SELECT' || tag === 'LABEL') return;
+
+            // If in Execution mode, tapping background should focus input (bring up keyboard)
+            if (this.mode === AppMode.EXEC) {
+                this.ui.input.focus();
+                return;
+            }
+
+            // Otherwise, treat click as Spacebar
+            this.handleSpace();
+        });
+
         // --- BUTTONS ---
         
         // NEW FINISH BUTTON LOGIC
@@ -200,7 +216,12 @@ class Trainer {
         this.userAnswers = [];
         document.getElementById('input-history').innerHTML = '';
         this.ui.input.value = '';
-        this.ui.input.focus();
+           
+        // FORCE FOCUS FOR MOBILE KEYBOARD
+        setTimeout(() => {
+            this.ui.input.focus();
+            this.ui.input.click(); // Sometimes needed for iOS
+        }, 50);
         // NOTE: Timer continues running!
     }
 
